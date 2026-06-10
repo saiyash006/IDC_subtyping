@@ -1,0 +1,36 @@
+# ──────────────────────────────────────────────────────────────
+# BCNB Subtyping Pipeline — Python Requirements
+# Environment: bcnb_subtyping  |  Python 3.10
+#
+# Setup:
+#   conda create -n bcnb_subtyping python=3.10 -y
+#   conda activate bcnb_subtyping
+#
+#   # PyTorch — RTX 5070 Ti (Blackwell sm_120) needs nightly + CUDA 12.8
+#   pip install --pre torch torchvision \
+#       --index-url https://download.pytorch.org/whl/nightly/cu128
+#
+#   pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────
+
+# Core
+numpy>=1.26,<2.0
+pandas>=2.2
+openpyxl>=3.1
+
+# Image I/O (preprocessing)
+opencv-python-headless>=4.9
+Pillow>=10.3
+
+# Progress / logging
+tqdm>=4.66
+
+# Foundation model support (feature extraction step)
+timm>=1.0
+huggingface-hub>=0.23
+transformers>=4.41
+einops>=0.8
+
+# Metrics / evaluation
+scikit-learn>=1.5
+scipy>=1.13
