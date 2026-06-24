@@ -1,0 +1,21 @@
+16:19:16  INFO      ====================================================================
+16:19:16  INFO        BCNB Multi-Task ABMIL — Hardware-Optimised Training
+16:19:16  INFO      ====================================================================
+16:19:16  INFO        Model       : MahmoodLab_UNI
+16:19:16  INFO        Device      : cuda
+16:19:16  INFO        GPU         : NVIDIA GeForce RTX 5070 Ti  15841 MB VRAM
+16:19:16  INFO        Trials      : 20
+16:19:16  INFO        Epochs      : 50
+16:19:16  INFO        Bag pinning : all splits → GPU at load time
+16:19:16  INFO        AMP dtype   : bfloat16 (no GradScaler needed)
+16:19:16  INFO        compile     : final model only (not inside Optuna)
+16:19:16  INFO        Run ID      : 20260616_161916
+16:19:16  INFO        Results dir : /home/cgntlab5/bcnb/BCNB dataset/outputs/results/MahmoodLab_UNI/20260616_161916
+16:19:16  WARNING   Dropped 132 patients with missing labels.
+16:19:16  INFO      Labels loaded: 926 patients
+16:19:16  INFO        ER: 726/926 positive (78.4%)
+16:19:16  INFO        PR: 691/926 positive (74.6%)
+16:19:16  INFO        HER2: 259/926 positive (28.0%)
+16:19:16  INFO        Grade 0: 38/926 (4.1%)
+16:19:16  INFO        Grade 1: 518/926 (55.9%)
+16:19:16  INFO        Grade 2: 370/926 (40.0%)

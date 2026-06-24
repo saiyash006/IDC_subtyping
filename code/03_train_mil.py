@@ -267,6 +267,9 @@ def load_and_pin_features(
             logger.warning(f"  [{split}] {pid}: invalid shape {feat.shape} — skipped")
             continue
 
+        # Per-patient feature normalization (z-score)
+        feat = (feat - feat.mean(dim=0, keepdim=True)) / (feat.std(dim=0, unbiased=False, keepdim=True) + 1e-8)
+
         row = labels_df.loc[pid]
         label_dicts.append({
             "ER":        float(row["ER"]),
@@ -486,39 +489,6 @@ def subsample_bag(H: torch.Tensor, max_size: int, training: bool) -> torch.Tenso
         else torch.arange(max_size, device=H.device)
     )
     return H[idx]
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  M-BAG AUGMENTATION  (Xu et al. 2021, §Methods Step 1)
-# ─────────────────────────────────────────────────────────────────────────────
-def expand_bags_m_fold(
-    bags:        List[torch.Tensor],
-    label_dicts: List[Dict],
-    m:           int = M_BAGS,
-    logger:      Optional[logging.Logger] = None,
-) -> Tuple[List[torch.Tensor], List[Dict]]:
-    """
-    Replicate each patient's feature bag M times in the training list.
-
-    Combined with subsample_bag's random patch selection during training,
-    each replica sees a *different* random subset of patches every epoch —
-    equivalent to the paper's M distinct sub-bags per patient but with even
-    more diversity (fresh random selection each epoch vs. fixed at init).
-
-    Memory cost: zero extra VRAM — replicas share the same tensor reference.
-    Effective training set: len(bags) × M.
-    """
-    expanded_bags: List[torch.Tensor] = []
-    expanded_lbls: List[Dict] = []
-    for bag, lbl in zip(bags, label_dicts):
-        for _ in range(m):
-            expanded_bags.append(bag)   # same tensor, no copy
-            expanded_lbls.append(lbl)
-    if logger:
-        logger.info(
-            f"  M-bag expansion: {len(bags)} × {m} = {len(expanded_bags)} training samples"
-        )
-    return expanded_bags, expanded_lbls
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -750,7 +720,7 @@ def build_objective(
         attn_dim     = trial.suggest_categorical("attn_dim",    [256, 512, 768])
         attn_dropout = trial.suggest_float("attn_dropout", 0.1, 0.5)
         clf_dropout  = trial.suggest_float("clf_dropout",  0.2, 0.6)
-        max_bag_size = trial.suggest_categorical("max_bag_size", [64, 128, 256])
+        max_bag_size = trial.suggest_categorical("max_bag_size", [64, 128])
 
         skf       = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
         fold_aucs = []
@@ -762,9 +732,6 @@ def build_objective(
             va_bags = [bags[i]        for i in va_idx]
             tr_lbls = [label_dicts[i] for i in tr_idx]
             va_lbls = [label_dicts[i] for i in va_idx]
-
-            # P0: M-bag expansion (train folds only — val stays untouched)
-            tr_bags, tr_lbls = expand_bags_m_fold(tr_bags, tr_lbls)
 
             seed_everything(42 + fold)
             model = GatedABMIL(
@@ -1300,6 +1267,8 @@ def parse_args() -> argparse.Namespace:
     )
     p.add_argument("--model",       type=str, default="owkin_phikon",
                    help="Feature dir name under outputs/features/ (/ → _).")
+    p.add_argument("--features_dir",type=str, default=str(FEATURES_ROOT),
+                   help="Custom root directory for features (e.g. outputs/trident_features)")
     p.add_argument("--n_trials",    type=int, default=20)
     p.add_argument("--epochs",      type=int, default=50)
     p.add_argument("--device",      type=str, default="cuda")
@@ -1342,7 +1311,7 @@ def main() -> None:
     logger.info(f"  compile     : final model only (not inside Optuna)")
 
     # ── Run ID (timestamp) — prevents overwriting previous runs ───────────────
-    model_dir   = FEATURES_ROOT / args.model
+    model_dir   = Path(args.features_dir) / args.model
     ckpt_path   = CKPT_DIR      / args.model / run_id / "best_model.pth"
     results_dir = RESULTS_DIR   / args.model / run_id
     results_dir.mkdir(parents=True, exist_ok=True)
@@ -1439,18 +1408,12 @@ def main() -> None:
         logger.info(f"Loaded best params from previous run: {prev_run.name}")
         logger.info(f"  {best_params}")
 
-    # ── P0: M-bag expansion for final training ────────────────────────────────
-    logger.info("\nApplying M-bag augmentation to training split …")
-    train_bags_exp, train_lbls_exp = expand_bags_m_fold(
-        train_bags, train_lbls, M_BAGS, logger
-    )
-
     # ── Final model ───────────────────────────────────────────────────────────
     if not args.no_test:
         test_metrics = train_final_model(
             best_params       = best_params,
-            train_bags        = train_bags_exp,   # M-bag expanded train split
-            train_label_dicts = train_lbls_exp,
+            train_bags        = train_bags,
+            train_label_dicts = train_lbls,
             val_bags          = val_bags,         # official val — checkpoint signal
             val_label_dicts   = val_lbls,
             test_bags         = test_bags,        # held-out test — evaluated once

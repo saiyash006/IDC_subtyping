@@ -1,0 +1,35 @@
+15:01:46  INFO      ============================================================
+15:01:46  INFO        Phase 4: Evaluation + Spatial Attention Heatmaps
+15:01:46  INFO      ============================================================
+15:01:46  INFO        Model     : owkin_phikon
+15:01:46  INFO        Device    : cuda
+15:01:46  INFO        Checkpoint: /home/cgntlab5/bcnb/BCNB dataset/outputs/checkpoints/owkin_phikon/best_model.pth
+15:01:47  INFO        Embed dim : 768
+15:01:47  INFO        Params    : {'lr': 0.0009622430714260025, 'weight_decay': 0.0005327076548041794, 'attn_dim': 768, 'attn_dropout': 0.4778365397473013, 'max_bag_size': 1024}
+15:01:47  INFO        Model loaded ✓
+15:01:47  INFO        Test patients: 218
+15:01:47  INFO      
+Running inference on test set …
+15:01:52  INFO        Valid test patients: 191
+15:01:52  INFO      
+Generating ROC curves …
+15:01:52  INFO      ROC curves saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/roc_curves.png
+15:01:52  INFO      Generating confusion matrices …
+15:01:52  INFO      Confusion matrices saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/confusion_matrices.png
+15:01:54  INFO      
+Generating 10 spatial attention heatmaps …
+15:02:10  INFO        [984] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_984.png
+15:02:18  INFO        [737] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_737.png
+15:02:23  INFO        [98] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_98.png
+15:02:28  INFO        [974] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_974.png
+15:02:33  INFO        [839] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_839.png
+15:02:37  INFO        [806] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_806.png
+15:02:41  INFO        [6] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_6.png
+15:02:45  INFO        [726] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_726.png
+15:02:49  INFO        [304] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_304.png
+15:02:54  INFO        [427] heatmap saved → /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/heatmaps/heatmap_427.png
+15:02:54  INFO      
+  Heatmaps generated: 10/10
+15:02:54  INFO        All outputs in: /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon
+15:02:54  INFO      
+Done.

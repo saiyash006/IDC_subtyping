@@ -1,0 +1,33 @@
+16:07:02  INFO      ====================================================================
+16:07:02  INFO        BCNB Multi-Task ABMIL — Hardware-Optimised Training
+16:07:02  INFO      ====================================================================
+16:07:02  INFO        Model       : phikon_patch256_mag20
+16:07:02  INFO        Device      : cuda
+16:07:02  INFO        GPU         : NVIDIA GeForce RTX 5070 Ti  15833 MB VRAM
+16:07:02  INFO        Trials      : 5
+16:07:02  INFO        Epochs      : 50
+16:07:02  INFO        Bag pinning : all splits → GPU at load time
+16:07:02  INFO        AMP dtype   : bfloat16 (no GradScaler needed)
+16:07:02  INFO        compile     : final model only (not inside Optuna)
+16:07:02  INFO        Run ID      : 20260624_160702
+16:07:02  INFO        Results dir : /home/cgntlab5/bcnb/BCNB dataset/outputs/results/phikon_patch256_mag20/20260624_160702
+16:07:02  WARNING   Dropped 132 patients with missing labels.
+16:07:02  INFO      Labels loaded: 926 patients
+16:07:02  INFO        ER: 726/926 positive (78.4%)
+16:07:02  INFO        PR: 691/926 positive (74.6%)
+16:07:02  INFO        HER2: 259/926 positive (28.0%)
+16:07:02  INFO        Grade 0: 38/926 (4.1%)
+16:07:02  INFO        Grade 1: 518/926 (55.9%)
+16:07:02  INFO        Grade 2: 370/926 (40.0%)
+16:07:02  INFO        Embed dim   : 768  (auto-detected)
+16:07:02  INFO      
+Loading all features from NFS → GPU …
+16:07:02  INFO      [train] Reading from NFS: outputs/trident_features/phikon_patch256_mag20/train …
+16:07:12  INFO      [train] 492/580 bags on cuda  | missing_feat=49  missing_label=39
+16:07:12  INFO      [val] Reading from NFS: outputs/trident_features/phikon_patch256_mag20/val …
+16:07:14  INFO      [val] 172/200 bags on cuda  | missing_feat=20  missing_label=8
+16:07:14  INFO      [test] Reading from NFS: outputs/trident_features/phikon_patch256_mag20/test …
+16:07:17  INFO      [test] 176/202 bags on cuda  | missing_feat=14  missing_label=12
+16:07:17  INFO        CV pool     : 664 patients  |  Test : 176 patients  (held out)
+16:07:17  INFO      
+Starting Optuna: 5 trials × 5-fold CV × 50 epochs

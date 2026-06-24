@@ -1,0 +1,12 @@
+{
+  "best_params": {
+    "lr": 0.0001,
+    "weight_decay": 0.001,
+    "attn_dim": 768,
+    "attn_dropout": 0.4778365397473013,
+    "max_bag_size": 128,
+    "clf_dropout": 0.3,
+    "use_layernorm": true
+  },
+  "best_auc": 0.8023222647516176
+}

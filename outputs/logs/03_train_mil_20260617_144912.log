@@ -1,0 +1,38 @@
+14:49:12  INFO      ====================================================================
+14:49:12  INFO        BCNB Multi-Task ABMIL — Hardware-Optimised Training
+14:49:12  INFO      ====================================================================
+14:49:12  INFO        Model       : owkin_phikon
+14:49:12  INFO        Device      : cuda
+14:49:12  INFO        GPU         : NVIDIA GeForce RTX 5070 Ti  15841 MB VRAM
+14:49:12  INFO        Trials      : 20
+14:49:12  INFO        Epochs      : 50
+14:49:12  INFO        Bag pinning : all splits → GPU at load time
+14:49:12  INFO        AMP dtype   : bfloat16 (no GradScaler needed)
+14:49:12  INFO        compile     : final model only (not inside Optuna)
+14:49:12  INFO        Run ID      : 20260617_144912
+14:49:12  INFO        Results dir : /home/cgntlab5/bcnb/BCNB dataset/outputs/results/owkin_phikon/20260617_144912
+14:49:12  WARNING   Dropped 132 patients with missing labels.
+14:49:12  INFO      Labels loaded: 926 patients
+14:49:12  INFO        ER: 726/926 positive (78.4%)
+14:49:12  INFO        PR: 691/926 positive (74.6%)
+14:49:12  INFO        HER2: 259/926 positive (28.0%)
+14:49:12  INFO        Grade 0: 38/926 (4.1%)
+14:49:12  INFO        Grade 1: 518/926 (55.9%)
+14:49:12  INFO        Grade 2: 370/926 (40.0%)
+14:49:12  INFO        Embed dim   : 768  (auto-detected)
+14:49:12  INFO      
+Loading all features from NFS → GPU …
+14:49:12  INFO      [train] Reading from NFS: /home/cgntlab5/bcnb/BCNB dataset/outputs/features/owkin_phikon/train …
+14:49:23  INFO      [train] 543/630 bags on cuda  | missing_feat=0  missing_label=87
+14:49:23  INFO      [val] Reading from NFS: /home/cgntlab5/bcnb/BCNB dataset/outputs/features/owkin_phikon/val …
+14:49:28  INFO      [val] 192/210 bags on cuda  | missing_feat=0  missing_label=18
+14:49:28  INFO      [test] Reading from NFS: /home/cgntlab5/bcnb/BCNB dataset/outputs/features/owkin_phikon/test …
+14:49:31  INFO      [test] 191/218 bags on cuda  | missing_feat=0  missing_label=27
+14:49:31  INFO        CV pool     : 735 patients  |  Test : 191 patients  (held out)
+14:49:31  INFO      
+Starting Optuna: 20 trials × 5-fold CV × 50 epochs
+15:02:56  INFO      Trial 000 | macro_auc=0.7162 | folds=['0.699', '0.708', '0.763', '0.693', '0.718'] | params={'lr': 0.00022281504889771643, 'weight_decay': 0.00339863339115234, 'attn_dim': 512, 'attn_dropout': 0.30185194334679954, 'clf_dropout': 0.3557769783363353, 'max_bag_size': 64}
+15:15:08  INFO      Trial 001 | macro_auc=0.6980 | folds=['0.701', '0.718', '0.679', '0.690', '0.702'] | params={'lr': 8.608819037145428e-05, 'weight_decay': 0.0015484032088572384, 'attn_dim': 512, 'attn_dropout': 0.333149796901062, 'clf_dropout': 0.5385992284228636, 'max_bag_size': 64}
+15:27:41  INFO      Trial 002 | macro_auc=0.6864 | folds=['0.700', '0.681', '0.685', '0.682', '0.685'] | params={'lr': 8.117832105502114e-05, 'weight_decay': 0.0032957630507809053, 'attn_dim': 256, 'attn_dropout': 0.28399014275242773, 'clf_dropout': 0.5727478817830105, 'max_bag_size': 128}
+15:38:51  INFO      Trial 003 | macro_auc=0.6876 | folds=['0.694', '0.666', '0.687', '0.695', '0.696'] | params={'lr': 6.283064271002231e-05, 'weight_decay': 0.0008899087913870975, 'attn_dim': 768, 'attn_dropout': 0.27417596171927916, 'clf_dropout': 0.5513410710831668, 'max_bag_size': 128}
+15:51:42  INFO      Trial 004 | macro_auc=0.7030 | folds=['0.707', '0.685', '0.698', '0.715', '0.710'] | params={'lr': 0.00016501669320082485, 'weight_decay': 0.004776766168358768, 'attn_dim': 512, 'attn_dropout': 0.10454327803180533, 'clf_dropout': 0.48189347997017473, 'max_bag_size': 128}

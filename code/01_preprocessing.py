@@ -516,7 +516,7 @@ def _stage_b_one_patient(
             patch_name = f"{original_image_name}_{x}_{y}.jpg"
             patch_path = str(patient_out / patch_name)
 
-            if ratio >= max_blank_ratio:
+            if ratio > max_blank_ratio:
                 tot_disc += 1
                 logs.append(f"DEBUG    [{wsi_id}] deprecated (blank={ratio:.2f}): "
                              f"{patch_name}")

@@ -1,0 +1,1775 @@
+17:06:54  INFO      ======================================================================
+17:06:54  INFO        Phase 2: Foundation Model Feature Extraction
+17:06:54  INFO      ======================================================================
+17:06:54  INFO        Model       : owkin/phikon
+17:06:54  INFO        Batch size  : 256
+17:06:54  INFO        Workers     : 32
+17:06:54  INFO        Splits      : ['train', 'val', 'test']
+17:06:54  INFO        Device      : cpu
+17:06:54  INFO      Loading Foundation Model: owkin/phikon
+17:06:57  INFO        Embed Dim   : 768
+17:06:57  INFO      [train] Found 630 patients in /home/cgntlab5/bcnb/BCNB dataset/outputs/patches/train
+17:06:58  DEBUG     [train] 1 saved tensor shape: torch.Size([25, 768])
+17:07:01  DEBUG     [train] 10 saved tensor shape: torch.Size([39, 768])
+17:07:08  DEBUG     [train] 100 saved tensor shape: torch.Size([89, 768])
+17:07:12  DEBUG     [train] 1001 saved tensor shape: torch.Size([62, 768])
+17:07:18  DEBUG     [train] 1002 saved tensor shape: torch.Size([79, 768])
+17:07:21  DEBUG     [train] 1003 saved tensor shape: torch.Size([47, 768])
+17:07:41  DEBUG     [train] 1004 saved tensor shape: torch.Size([327, 768])
+17:07:44  DEBUG     [train] 1005 saved tensor shape: torch.Size([36, 768])
+17:08:09  DEBUG     [train] 1007 saved tensor shape: torch.Size([415, 768])
+17:08:12  DEBUG     [train] 1008 saved tensor shape: torch.Size([49, 768])
+17:08:14  DEBUG     [train] 1009 saved tensor shape: torch.Size([13, 768])
+17:08:35  DEBUG     [train] 1010 saved tensor shape: torch.Size([326, 768])
+17:08:38  DEBUG     [train] 1012 saved tensor shape: torch.Size([34, 768])
+17:08:40  DEBUG     [train] 1013 saved tensor shape: torch.Size([27, 768])
+17:08:42  DEBUG     [train] 1016 saved tensor shape: torch.Size([28, 768])
+17:08:47  DEBUG     [train] 1017 saved tensor shape: torch.Size([66, 768])
+17:08:54  DEBUG     [train] 1019 saved tensor shape: torch.Size([112, 768])
+17:08:56  DEBUG     [train] 1020 saved tensor shape: torch.Size([37, 768])
+17:08:58  DEBUG     [train] 1022 saved tensor shape: torch.Size([25, 768])
+17:09:30  DEBUG     [train] 1023 saved tensor shape: torch.Size([540, 768])
+17:09:54  DEBUG     [train] 1024 saved tensor shape: torch.Size([418, 768])
+17:09:56  DEBUG     [train] 1025 saved tensor shape: torch.Size([27, 768])
+17:09:58  DEBUG     [train] 1029 saved tensor shape: torch.Size([19, 768])
+17:10:00  DEBUG     [train] 1035 saved tensor shape: torch.Size([32, 768])
+17:10:05  DEBUG     [train] 1036 saved tensor shape: torch.Size([77, 768])
+17:10:09  DEBUG     [train] 1039 saved tensor shape: torch.Size([53, 768])
+17:10:10  DEBUG     [train] 104 saved tensor shape: torch.Size([16, 768])
+17:10:12  DEBUG     [train] 1042 saved tensor shape: torch.Size([19, 768])
+17:10:15  DEBUG     [train] 1044 saved tensor shape: torch.Size([37, 768])
+17:10:16  DEBUG     [train] 1045 saved tensor shape: torch.Size([10, 768])
+17:10:19  DEBUG     [train] 1046 saved tensor shape: torch.Size([51, 768])
+17:10:30  INFO      ======================================================================
+17:10:30  INFO        Phase 2: Foundation Model Feature Extraction
+17:10:30  INFO      ======================================================================
+17:10:30  INFO        Model       : owkin/phikon
+17:10:30  INFO        Batch size  : 256
+17:10:30  INFO        Workers     : 16
+17:10:30  INFO        Splits      : ['train', 'val', 'test']
+17:10:30  INFO        Device      : cpu
+17:10:30  INFO      Loading Foundation Model: owkin/phikon
+17:10:32  INFO        Embed Dim   : 768
+17:10:32  INFO      [train] Found 630 patients in /home/cgntlab5/bcnb/BCNB dataset/outputs/patches/train
+17:10:32  DEBUG     [train] 1 already extracted, skipping...
+17:10:32  DEBUG     [train] 10 already extracted, skipping...
+17:10:32  DEBUG     [train] 100 already extracted, skipping...
+17:10:32  DEBUG     [train] 1001 already extracted, skipping...
+17:10:32  DEBUG     [train] 1002 already extracted, skipping...
+17:10:32  DEBUG     [train] 1003 already extracted, skipping...
+17:10:32  DEBUG     [train] 1004 already extracted, skipping...
+17:10:32  DEBUG     [train] 1005 already extracted, skipping...
+17:10:32  DEBUG     [train] 1007 already extracted, skipping...
+17:10:32  DEBUG     [train] 1008 already extracted, skipping...
+17:10:32  DEBUG     [train] 1009 already extracted, skipping...
+17:10:32  DEBUG     [train] 1010 already extracted, skipping...
+17:10:32  DEBUG     [train] 1012 already extracted, skipping...
+17:10:32  DEBUG     [train] 1013 already extracted, skipping...
+17:10:32  DEBUG     [train] 1016 already extracted, skipping...
+17:10:32  DEBUG     [train] 1017 already extracted, skipping...
+17:10:32  DEBUG     [train] 1019 already extracted, skipping...
+17:10:32  DEBUG     [train] 1020 already extracted, skipping...
+17:10:32  DEBUG     [train] 1022 already extracted, skipping...
+17:10:32  DEBUG     [train] 1023 already extracted, skipping...
+17:10:32  DEBUG     [train] 1024 already extracted, skipping...
+17:10:32  DEBUG     [train] 1025 already extracted, skipping...
+17:10:32  DEBUG     [train] 1029 already extracted, skipping...
+17:10:32  DEBUG     [train] 1035 already extracted, skipping...
+17:10:32  DEBUG     [train] 1036 already extracted, skipping...
+17:10:32  DEBUG     [train] 1039 already extracted, skipping...
+17:10:32  DEBUG     [train] 104 already extracted, skipping...
+17:10:32  DEBUG     [train] 1042 already extracted, skipping...
+17:10:32  DEBUG     [train] 1044 already extracted, skipping...
+17:10:32  DEBUG     [train] 1045 already extracted, skipping...
+17:10:32  DEBUG     [train] 1046 already extracted, skipping...
+17:10:34  DEBUG     [train] 1047 saved tensor shape: torch.Size([28, 768])
+17:10:35  DEBUG     [train] 1048 saved tensor shape: torch.Size([18, 768])
+17:10:37  DEBUG     [train] 1050 saved tensor shape: torch.Size([35, 768])
+17:10:39  DEBUG     [train] 1052 saved tensor shape: torch.Size([26, 768])
+17:10:41  DEBUG     [train] 1053 saved tensor shape: torch.Size([23, 768])
+17:10:49  DEBUG     [train] 1057 saved tensor shape: torch.Size([138, 768])
+17:11:01  DEBUG     [train] 110 saved tensor shape: torch.Size([191, 768])
+17:11:04  DEBUG     [train] 111 saved tensor shape: torch.Size([32, 768])
+17:11:05  DEBUG     [train] 113 saved tensor shape: torch.Size([21, 768])
+17:11:06  DEBUG     [train] 114 saved tensor shape: torch.Size([10, 768])
+17:11:07  DEBUG     [train] 116 saved tensor shape: torch.Size([14, 768])
+17:11:11  DEBUG     [train] 117 saved tensor shape: torch.Size([70, 768])
+17:11:12  DEBUG     [train] 12 saved tensor shape: torch.Size([10, 768])
+17:11:15  DEBUG     [train] 122 saved tensor shape: torch.Size([43, 768])
+17:11:17  DEBUG     [train] 123 saved tensor shape: torch.Size([37, 768])
+17:11:20  DEBUG     [train] 124 saved tensor shape: torch.Size([55, 768])
+17:11:22  DEBUG     [train] 125 saved tensor shape: torch.Size([28, 768])
+17:11:25  DEBUG     [train] 126 saved tensor shape: torch.Size([40, 768])
+17:11:26  DEBUG     [train] 13 saved tensor shape: torch.Size([22, 768])
+17:11:35  DEBUG     [train] 130 saved tensor shape: torch.Size([132, 768])
+17:11:40  DEBUG     [train] 132 saved tensor shape: torch.Size([81, 768])
+17:11:58  DEBUG     [train] 133 saved tensor shape: torch.Size([264, 768])
+17:12:00  DEBUG     [train] 134 saved tensor shape: torch.Size([25, 768])
+17:12:01  DEBUG     [train] 136 saved tensor shape: torch.Size([15, 768])
+17:12:02  DEBUG     [train] 137 saved tensor shape: torch.Size([17, 768])
+17:12:03  DEBUG     [train] 14 saved tensor shape: torch.Size([9, 768])
+17:12:13  DEBUG     [train] 140 saved tensor shape: torch.Size([154, 768])
+17:12:15  DEBUG     [train] 141 saved tensor shape: torch.Size([10, 768])
+17:12:16  DEBUG     [train] 143 saved tensor shape: torch.Size([26, 768])
+17:12:23  DEBUG     [train] 144 saved tensor shape: torch.Size([111, 768])
+17:12:26  DEBUG     [train] 145 saved tensor shape: torch.Size([39, 768])
+17:12:28  DEBUG     [train] 146 saved tensor shape: torch.Size([29, 768])
+17:12:43  DEBUG     [train] 148 saved tensor shape: torch.Size([220, 768])
+17:12:44  DEBUG     [train] 15 saved tensor shape: torch.Size([21, 768])
+17:12:47  DEBUG     [train] 150 saved tensor shape: torch.Size([51, 768])
+17:12:49  DEBUG     [train] 154 saved tensor shape: torch.Size([26, 768])
+17:13:08  DEBUG     [train] 156 saved tensor shape: torch.Size([282, 768])
+17:13:08  DEBUG     [train] 157 saved tensor shape: torch.Size([10, 768])
+17:13:13  DEBUG     [train] 158 saved tensor shape: torch.Size([66, 768])
+17:13:15  DEBUG     [train] 159 saved tensor shape: torch.Size([32, 768])
+17:13:18  DEBUG     [train] 160 saved tensor shape: torch.Size([44, 768])
+17:13:24  DEBUG     [train] 162 saved tensor shape: torch.Size([99, 768])
+17:13:28  DEBUG     [train] 163 saved tensor shape: torch.Size([60, 768])
+17:13:34  DEBUG     [train] 165 saved tensor shape: torch.Size([94, 768])
+17:13:48  DEBUG     [train] 166 saved tensor shape: torch.Size([201, 768])
+17:13:50  DEBUG     [train] 167 saved tensor shape: torch.Size([40, 768])
+17:13:52  DEBUG     [train] 169 saved tensor shape: torch.Size([20, 768])
+17:13:53  DEBUG     [train] 17 saved tensor shape: torch.Size([26, 768])
+17:13:54  DEBUG     [train] 170 saved tensor shape: torch.Size([12, 768])
+17:14:09  DEBUG     [train] 172 saved tensor shape: torch.Size([215, 768])
+17:14:11  DEBUG     [train] 173 saved tensor shape: torch.Size([22, 768])
+17:14:19  DEBUG     [train] 174 saved tensor shape: torch.Size([117, 768])
+17:14:20  DEBUG     [train] 176 saved tensor shape: torch.Size([21, 768])
+17:14:22  DEBUG     [train] 178 saved tensor shape: torch.Size([22, 768])
+17:14:29  DEBUG     [train] 179 saved tensor shape: torch.Size([108, 768])
+17:14:31  DEBUG     [train] 180 saved tensor shape: torch.Size([39, 768])
+17:14:33  DEBUG     [train] 182 saved tensor shape: torch.Size([23, 768])
+17:14:34  DEBUG     [train] 185 saved tensor shape: torch.Size([21, 768])
+17:14:37  DEBUG     [train] 188 saved tensor shape: torch.Size([43, 768])
+17:14:41  DEBUG     [train] 189 saved tensor shape: torch.Size([53, 768])
+17:14:44  DEBUG     [train] 19 saved tensor shape: torch.Size([58, 768])
+17:14:46  DEBUG     [train] 192 saved tensor shape: torch.Size([16, 768])
+17:14:47  DEBUG     [train] 193 saved tensor shape: torch.Size([22, 768])
+17:14:50  DEBUG     [train] 195 saved tensor shape: torch.Size([41, 768])
+17:14:51  DEBUG     [train] 196 saved tensor shape: torch.Size([25, 768])
+17:14:53  DEBUG     [train] 197 saved tensor shape: torch.Size([20, 768])
+17:15:00  DEBUG     [train] 198 saved tensor shape: torch.Size([109, 768])
+17:15:08  DEBUG     [train] 199 saved tensor shape: torch.Size([121, 768])
+17:16:08  DEBUG     [train] 20 saved tensor shape: torch.Size([1086, 768])
+17:16:20  DEBUG     [train] 201 saved tensor shape: torch.Size([184, 768])
+17:16:22  DEBUG     [train] 202 saved tensor shape: torch.Size([31, 768])
+17:16:24  DEBUG     [train] 203 saved tensor shape: torch.Size([24, 768])
+17:16:30  DEBUG     [train] 205 saved tensor shape: torch.Size([98, 768])
+17:16:33  DEBUG     [train] 206 saved tensor shape: torch.Size([42, 768])
+17:16:34  DEBUG     [train] 210 saved tensor shape: torch.Size([23, 768])
+17:16:36  DEBUG     [train] 211 saved tensor shape: torch.Size([31, 768])
+17:16:38  DEBUG     [train] 213 saved tensor shape: torch.Size([32, 768])
+17:16:40  DEBUG     [train] 214 saved tensor shape: torch.Size([25, 768])
+17:16:42  DEBUG     [train] 216 saved tensor shape: torch.Size([22, 768])
+17:16:43  DEBUG     [train] 217 saved tensor shape: torch.Size([14, 768])
+17:16:46  DEBUG     [train] 218 saved tensor shape: torch.Size([51, 768])
+17:16:48  DEBUG     [train] 219 saved tensor shape: torch.Size([22, 768])
+17:16:52  DEBUG     [train] 22 saved tensor shape: torch.Size([67, 768])
+17:16:54  DEBUG     [train] 221 saved tensor shape: torch.Size([28, 768])
+17:16:56  DEBUG     [train] 224 saved tensor shape: torch.Size([41, 768])
+17:16:57  DEBUG     [train] 226 saved tensor shape: torch.Size([8, 768])
+17:16:58  DEBUG     [train] 228 saved tensor shape: torch.Size([16, 768])
+17:17:03  DEBUG     [train] 23 saved tensor shape: torch.Size([60, 768])
+17:17:09  DEBUG     [train] 235 saved tensor shape: torch.Size([88, 768])
+17:17:12  DEBUG     [train] 236 saved tensor shape: torch.Size([38, 768])
+17:17:13  DEBUG     [train] 239 saved tensor shape: torch.Size([20, 768])
+17:17:14  DEBUG     [train] 24 saved tensor shape: torch.Size([9, 768])
+17:17:15  DEBUG     [train] 240 saved tensor shape: torch.Size([13, 768])
+17:17:16  DEBUG     [train] 241 saved tensor shape: torch.Size([20, 768])
+17:17:21  DEBUG     [train] 243 saved tensor shape: torch.Size([73, 768])
+17:17:27  DEBUG     [train] 247 saved tensor shape: torch.Size([93, 768])
+17:17:30  DEBUG     [train] 248 saved tensor shape: torch.Size([42, 768])
+17:17:34  DEBUG     [train] 249 saved tensor shape: torch.Size([60, 768])
+17:17:35  DEBUG     [train] 250 saved tensor shape: torch.Size([13, 768])
+17:17:36  DEBUG     [train] 252 saved tensor shape: torch.Size([14, 768])
+17:17:48  DEBUG     [train] 254 saved tensor shape: torch.Size([186, 768])
+17:17:51  DEBUG     [train] 255 saved tensor shape: torch.Size([42, 768])
+17:17:53  DEBUG     [train] 257 saved tensor shape: torch.Size([27, 768])
+17:17:56  DEBUG     [train] 262 saved tensor shape: torch.Size([39, 768])
+17:17:58  DEBUG     [train] 263 saved tensor shape: torch.Size([27, 768])
+17:17:59  DEBUG     [train] 264 saved tensor shape: torch.Size([19, 768])
+17:18:04  DEBUG     [train] 265 saved tensor shape: torch.Size([84, 768])
+17:18:06  DEBUG     [train] 266 saved tensor shape: torch.Size([17, 768])
+17:18:11  DEBUG     [train] 27 saved tensor shape: torch.Size([73, 768])
+17:18:19  DEBUG     [train] 270 saved tensor shape: torch.Size([119, 768])
+17:18:25  DEBUG     [train] 271 saved tensor shape: torch.Size([107, 768])
+17:18:37  DEBUG     [train] 275 saved tensor shape: torch.Size([172, 768])
+17:18:40  DEBUG     [train] 276 saved tensor shape: torch.Size([54, 768])
+17:18:42  DEBUG     [train] 277 saved tensor shape: torch.Size([17, 768])
+17:18:44  DEBUG     [train] 278 saved tensor shape: torch.Size([30, 768])
+17:18:46  DEBUG     [train] 279 saved tensor shape: torch.Size([29, 768])
+17:18:48  DEBUG     [train] 28 saved tensor shape: torch.Size([34, 768])
+17:18:52  DEBUG     [train] 280 saved tensor shape: torch.Size([60, 768])
+17:18:55  DEBUG     [train] 281 saved tensor shape: torch.Size([43, 768])
+17:18:57  DEBUG     [train] 282 saved tensor shape: torch.Size([22, 768])
+17:18:59  DEBUG     [train] 283 saved tensor shape: torch.Size([41, 768])
+17:19:04  DEBUG     [train] 284 saved tensor shape: torch.Size([69, 768])
+17:19:08  DEBUG     [train] 285 saved tensor shape: torch.Size([58, 768])
+17:19:09  DEBUG     [train] 287 saved tensor shape: torch.Size([14, 768])
+17:19:11  DEBUG     [train] 29 saved tensor shape: torch.Size([30, 768])
+17:19:12  DEBUG     [train] 290 saved tensor shape: torch.Size([15, 768])
+17:19:13  DEBUG     [train] 292 saved tensor shape: torch.Size([14, 768])
+17:19:21  DEBUG     [train] 293 saved tensor shape: torch.Size([122, 768])
+17:19:26  DEBUG     [train] 295 saved tensor shape: torch.Size([70, 768])
+17:19:33  DEBUG     [train] 297 saved tensor shape: torch.Size([114, 768])
+17:19:40  DEBUG     [train] 298 saved tensor shape: torch.Size([97, 768])
+17:19:45  DEBUG     [train] 3 saved tensor shape: torch.Size([74, 768])
+17:19:48  DEBUG     [train] 30 saved tensor shape: torch.Size([41, 768])
+17:19:50  DEBUG     [train] 301 saved tensor shape: torch.Size([43, 768])
+17:19:52  DEBUG     [train] 302 saved tensor shape: torch.Size([22, 768])
+17:19:53  DEBUG     [train] 305 saved tensor shape: torch.Size([24, 768])
+17:19:55  DEBUG     [train] 307 saved tensor shape: torch.Size([30, 768])
+17:19:58  DEBUG     [train] 309 saved tensor shape: torch.Size([47, 768])
+17:19:59  DEBUG     [train] 310 saved tensor shape: torch.Size([13, 768])
+17:20:02  DEBUG     [train] 312 saved tensor shape: torch.Size([46, 768])
+17:20:03  DEBUG     [train] 313 saved tensor shape: torch.Size([24, 768])
+17:20:05  DEBUG     [train] 314 saved tensor shape: torch.Size([30, 768])
+17:20:06  DEBUG     [train] 316 saved tensor shape: torch.Size([10, 768])
+17:20:08  DEBUG     [train] 317 saved tensor shape: torch.Size([28, 768])
+17:20:10  DEBUG     [train] 319 saved tensor shape: torch.Size([24, 768])
+17:20:12  DEBUG     [train] 32 saved tensor shape: torch.Size([26, 768])
+17:20:13  DEBUG     [train] 320 saved tensor shape: torch.Size([11, 768])
+17:20:16  DEBUG     [train] 322 saved tensor shape: torch.Size([36, 768])
+17:20:17  DEBUG     [train] 323 saved tensor shape: torch.Size([21, 768])
+17:20:24  DEBUG     [train] 324 saved tensor shape: torch.Size([126, 768])
+17:20:29  DEBUG     [train] 325 saved tensor shape: torch.Size([69, 768])
+17:20:31  DEBUG     [train] 327 saved tensor shape: torch.Size([25, 768])
+17:20:33  DEBUG     [train] 328 saved tensor shape: torch.Size([39, 768])
+17:20:35  DEBUG     [train] 329 saved tensor shape: torch.Size([24, 768])
+17:20:39  DEBUG     [train] 33 saved tensor shape: torch.Size([76, 768])
+17:20:42  DEBUG     [train] 332 saved tensor shape: torch.Size([30, 768])
+17:20:43  DEBUG     [train] 333 saved tensor shape: torch.Size([20, 768])
+17:20:45  DEBUG     [train] 339 saved tensor shape: torch.Size([34, 768])
+17:20:49  DEBUG     [train] 34 saved tensor shape: torch.Size([53, 768])
+17:20:50  DEBUG     [train] 340 saved tensor shape: torch.Size([21, 768])
+17:20:55  DEBUG     [train] 341 saved tensor shape: torch.Size([68, 768])
+17:20:56  DEBUG     [train] 342 saved tensor shape: torch.Size([20, 768])
+17:20:57  DEBUG     [train] 343 saved tensor shape: torch.Size([21, 768])
+17:20:59  DEBUG     [train] 346 saved tensor shape: torch.Size([19, 768])
+17:21:00  DEBUG     [train] 348 saved tensor shape: torch.Size([21, 768])
+17:21:01  DEBUG     [train] 35 saved tensor shape: torch.Size([16, 768])
+17:21:07  DEBUG     [train] 350 saved tensor shape: torch.Size([88, 768])
+17:21:09  DEBUG     [train] 352 saved tensor shape: torch.Size([24, 768])
+17:21:11  DEBUG     [train] 353 saved tensor shape: torch.Size([44, 768])
+17:21:13  DEBUG     [train] 355 saved tensor shape: torch.Size([22, 768])
+17:21:15  DEBUG     [train] 356 saved tensor shape: torch.Size([31, 768])
+17:21:16  DEBUG     [train] 357 saved tensor shape: torch.Size([13, 768])
+17:21:18  DEBUG     [train] 358 saved tensor shape: torch.Size([34, 768])
+17:21:21  DEBUG     [train] 359 saved tensor shape: torch.Size([35, 768])
+17:21:24  DEBUG     [train] 361 saved tensor shape: torch.Size([52, 768])
+17:21:25  DEBUG     [train] 362 saved tensor shape: torch.Size([19, 768])
+17:21:31  DEBUG     [train] 363 saved tensor shape: torch.Size([93, 768])
+17:21:35  DEBUG     [train] 365 saved tensor shape: torch.Size([52, 768])
+17:21:37  DEBUG     [train] 366 saved tensor shape: torch.Size([28, 768])
+17:21:38  DEBUG     [train] 367 saved tensor shape: torch.Size([16, 768])
+17:21:45  DEBUG     [train] 369 saved tensor shape: torch.Size([116, 768])
+17:22:03  DEBUG     [train] 37 saved tensor shape: torch.Size([271, 768])
+17:22:07  DEBUG     [train] 370 saved tensor shape: torch.Size([49, 768])
+17:22:15  DEBUG     [train] 372 saved tensor shape: torch.Size([116, 768])
+17:22:16  DEBUG     [train] 373 saved tensor shape: torch.Size([10, 768])
+17:22:18  DEBUG     [train] 374 saved tensor shape: torch.Size([20, 768])
+17:22:20  DEBUG     [train] 376 saved tensor shape: torch.Size([32, 768])
+17:22:25  DEBUG     [train] 377 saved tensor shape: torch.Size([91, 768])
+17:22:45  DEBUG     [train] 378 saved tensor shape: torch.Size([303, 768])
+17:22:47  DEBUG     [train] 379 saved tensor shape: torch.Size([26, 768])
+17:22:50  DEBUG     [train] 38 saved tensor shape: torch.Size([52, 768])
+17:22:51  DEBUG     [train] 383 saved tensor shape: torch.Size([14, 768])
+17:22:57  DEBUG     [train] 384 saved tensor shape: torch.Size([98, 768])
+17:22:59  DEBUG     [train] 385 saved tensor shape: torch.Size([25, 768])
+17:23:04  DEBUG     [train] 387 saved tensor shape: torch.Size([77, 768])
+17:23:06  DEBUG     [train] 389 saved tensor shape: torch.Size([32, 768])
+17:23:07  DEBUG     [train] 39 saved tensor shape: torch.Size([12, 768])
+17:23:09  DEBUG     [train] 391 saved tensor shape: torch.Size([22, 768])
+17:23:10  DEBUG     [train] 392 saved tensor shape: torch.Size([20, 768])
+17:23:15  DEBUG     [train] 393 saved tensor shape: torch.Size([68, 768])
+17:23:18  DEBUG     [train] 394 saved tensor shape: torch.Size([52, 768])
+17:23:29  DEBUG     [train] 395 saved tensor shape: torch.Size([161, 768])
+17:23:31  DEBUG     [train] 397 saved tensor shape: torch.Size([15, 768])
+17:23:33  DEBUG     [train] 398 saved tensor shape: torch.Size([36, 768])
+17:23:35  DEBUG     [train] 399 saved tensor shape: torch.Size([21, 768])
+17:23:40  DEBUG     [train] 40 saved tensor shape: torch.Size([77, 768])
+17:23:43  DEBUG     [train] 400 saved tensor shape: torch.Size([46, 768])
+17:23:48  DEBUG     [train] 401 saved tensor shape: torch.Size([89, 768])
+17:23:51  DEBUG     [train] 403 saved tensor shape: torch.Size([36, 768])
+17:24:14  DEBUG     [train] 404 saved tensor shape: torch.Size([371, 768])
+17:24:16  DEBUG     [train] 405 saved tensor shape: torch.Size([37, 768])
+17:24:23  DEBUG     [train] 407 saved tensor shape: torch.Size([103, 768])
+17:24:25  DEBUG     [train] 408 saved tensor shape: torch.Size([30, 768])
+17:24:26  DEBUG     [train] 409 saved tensor shape: torch.Size([19, 768])
+17:24:31  DEBUG     [train] 41 saved tensor shape: torch.Size([84, 768])
+17:24:33  DEBUG     [train] 411 saved tensor shape: torch.Size([15, 768])
+17:24:36  DEBUG     [train] 412 saved tensor shape: torch.Size([60, 768])
+17:24:43  DEBUG     [train] 414 saved tensor shape: torch.Size([99, 768])
+17:24:44  DEBUG     [train] 415 saved tensor shape: torch.Size([14, 768])
+17:24:48  DEBUG     [train] 416 saved tensor shape: torch.Size([56, 768])
+17:24:49  DEBUG     [train] 419 saved tensor shape: torch.Size([10, 768])
+17:24:50  DEBUG     [train] 42 saved tensor shape: torch.Size([15, 768])
+17:24:53  DEBUG     [train] 421 saved tensor shape: torch.Size([51, 768])
+17:25:04  DEBUG     [train] 422 saved tensor shape: torch.Size([178, 768])
+17:25:25  DEBUG     [train] 423 saved tensor shape: torch.Size([350, 768])
+17:25:27  DEBUG     [train] 424 saved tensor shape: torch.Size([27, 768])
+17:25:28  DEBUG     [train] 425 saved tensor shape: torch.Size([16, 768])
+17:25:30  DEBUG     [train] 429 saved tensor shape: torch.Size([29, 768])
+17:25:34  DEBUG     [train] 430 saved tensor shape: torch.Size([55, 768])
+17:25:46  DEBUG     [train] 431 saved tensor shape: torch.Size([192, 768])
+17:25:47  DEBUG     [train] 432 saved tensor shape: torch.Size([13, 768])
+17:25:55  DEBUG     [train] 433 saved tensor shape: torch.Size([131, 768])
+17:25:58  DEBUG     [train] 435 saved tensor shape: torch.Size([32, 768])
+17:26:02  DEBUG     [train] 437 saved tensor shape: torch.Size([67, 768])
+17:26:09  DEBUG     [train] 438 saved tensor shape: torch.Size([103, 768])
+17:26:12  DEBUG     [train] 439 saved tensor shape: torch.Size([43, 768])
+17:26:14  DEBUG     [train] 440 saved tensor shape: torch.Size([35, 768])
+17:26:15  DEBUG     [train] 443 saved tensor shape: torch.Size([9, 768])
+17:26:19  DEBUG     [train] 444 saved tensor shape: torch.Size([64, 768])
+17:26:24  DEBUG     [train] 445 saved tensor shape: torch.Size([73, 768])
+17:26:29  DEBUG     [train] 446 saved tensor shape: torch.Size([91, 768])
+17:26:31  DEBUG     [train] 45 saved tensor shape: torch.Size([20, 768])
+17:26:32  DEBUG     [train] 450 saved tensor shape: torch.Size([17, 768])
+17:26:39  DEBUG     [train] 451 saved tensor shape: torch.Size([112, 768])
+17:26:44  DEBUG     [train] 452 saved tensor shape: torch.Size([74, 768])
+17:26:47  DEBUG     [train] 453 saved tensor shape: torch.Size([48, 768])
+17:26:49  DEBUG     [train] 454 saved tensor shape: torch.Size([32, 768])
+17:26:51  DEBUG     [train] 456 saved tensor shape: torch.Size([15, 768])
+17:26:52  DEBUG     [train] 458 saved tensor shape: torch.Size([13, 768])
+17:26:54  DEBUG     [train] 459 saved tensor shape: torch.Size([33, 768])
+17:26:56  DEBUG     [train] 462 saved tensor shape: torch.Size([33, 768])
+17:27:05  DEBUG     [train] 463 saved tensor shape: torch.Size([138, 768])
+17:27:07  DEBUG     [train] 464 saved tensor shape: torch.Size([25, 768])
+17:27:20  DEBUG     [train] 465 saved tensor shape: torch.Size([215, 768])
+17:27:28  DEBUG     [train] 467 saved tensor shape: torch.Size([120, 768])
+17:27:31  DEBUG     [train] 468 saved tensor shape: torch.Size([34, 768])
+17:27:33  DEBUG     [train] 469 saved tensor shape: torch.Size([28, 768])
+17:27:34  DEBUG     [train] 47 saved tensor shape: torch.Size([12, 768])
+17:27:40  DEBUG     [train] 470 saved tensor shape: torch.Size([104, 768])
+17:27:42  DEBUG     [train] 473 saved tensor shape: torch.Size([21, 768])
+17:27:48  DEBUG     [train] 474 saved tensor shape: torch.Size([105, 768])
+17:31:31  INFO      ======================================================================
+17:31:31  INFO        Phase 2: Foundation Model Feature Extraction
+17:31:31  INFO      ======================================================================
+17:31:31  INFO        Model       : owkin/phikon
+17:31:31  INFO        Batch size  : 256
+17:31:31  INFO        Workers     : 32
+17:31:31  INFO        Splits      : ['train', 'val', 'test']
+17:31:31  INFO        Device      : cuda
+17:31:31  INFO      Loading Foundation Model: owkin/phikon
+17:31:33  INFO        Embed Dim   : 768
+17:31:33  INFO      [train] Found 630 patients in /home/cgntlab5/bcnb/BCNB dataset/outputs/patches/train
+17:31:33  DEBUG     [train] 1 already extracted, skipping...
+17:31:33  DEBUG     [train] 10 already extracted, skipping...
+17:31:33  DEBUG     [train] 100 already extracted, skipping...
+17:31:33  DEBUG     [train] 1001 already extracted, skipping...
+17:31:33  DEBUG     [train] 1002 already extracted, skipping...
+17:31:33  DEBUG     [train] 1003 already extracted, skipping...
+17:31:33  DEBUG     [train] 1004 already extracted, skipping...
+17:31:33  DEBUG     [train] 1005 already extracted, skipping...
+17:31:33  DEBUG     [train] 1007 already extracted, skipping...
+17:31:33  DEBUG     [train] 1008 already extracted, skipping...
+17:31:33  DEBUG     [train] 1009 already extracted, skipping...
+17:31:33  DEBUG     [train] 1010 already extracted, skipping...
+17:31:33  DEBUG     [train] 1012 already extracted, skipping...
+17:31:33  DEBUG     [train] 1013 already extracted, skipping...
+17:31:33  DEBUG     [train] 1016 already extracted, skipping...
+17:31:33  DEBUG     [train] 1017 already extracted, skipping...
+17:31:33  DEBUG     [train] 1019 already extracted, skipping...
+17:31:33  DEBUG     [train] 1020 already extracted, skipping...
+17:31:33  DEBUG     [train] 1022 already extracted, skipping...
+17:31:33  DEBUG     [train] 1023 already extracted, skipping...
+17:31:33  DEBUG     [train] 1024 already extracted, skipping...
+17:31:33  DEBUG     [train] 1025 already extracted, skipping...
+17:31:33  DEBUG     [train] 1029 already extracted, skipping...
+17:31:33  DEBUG     [train] 1035 already extracted, skipping...
+17:31:33  DEBUG     [train] 1036 already extracted, skipping...
+17:31:33  DEBUG     [train] 1039 already extracted, skipping...
+17:31:33  DEBUG     [train] 104 already extracted, skipping...
+17:31:33  DEBUG     [train] 1042 already extracted, skipping...
+17:31:33  DEBUG     [train] 1044 already extracted, skipping...
+17:31:33  DEBUG     [train] 1045 already extracted, skipping...
+17:31:33  DEBUG     [train] 1046 already extracted, skipping...
+17:31:33  DEBUG     [train] 1047 already extracted, skipping...
+17:31:33  DEBUG     [train] 1048 already extracted, skipping...
+17:31:33  DEBUG     [train] 1050 already extracted, skipping...
+17:31:33  DEBUG     [train] 1052 already extracted, skipping...
+17:31:33  DEBUG     [train] 1053 already extracted, skipping...
+17:31:33  DEBUG     [train] 1057 already extracted, skipping...
+17:31:33  DEBUG     [train] 110 already extracted, skipping...
+17:31:33  DEBUG     [train] 111 already extracted, skipping...
+17:31:33  DEBUG     [train] 113 already extracted, skipping...
+17:31:33  DEBUG     [train] 114 already extracted, skipping...
+17:31:33  DEBUG     [train] 116 already extracted, skipping...
+17:31:33  DEBUG     [train] 117 already extracted, skipping...
+17:31:33  DEBUG     [train] 12 already extracted, skipping...
+17:31:33  DEBUG     [train] 122 already extracted, skipping...
+17:31:33  DEBUG     [train] 123 already extracted, skipping...
+17:31:33  DEBUG     [train] 124 already extracted, skipping...
+17:31:33  DEBUG     [train] 125 already extracted, skipping...
+17:31:33  DEBUG     [train] 126 already extracted, skipping...
+17:31:33  DEBUG     [train] 13 already extracted, skipping...
+17:31:33  DEBUG     [train] 130 already extracted, skipping...
+17:31:33  DEBUG     [train] 132 already extracted, skipping...
+17:31:33  DEBUG     [train] 133 already extracted, skipping...
+17:31:33  DEBUG     [train] 134 already extracted, skipping...
+17:31:33  DEBUG     [train] 136 already extracted, skipping...
+17:31:33  DEBUG     [train] 137 already extracted, skipping...
+17:31:33  DEBUG     [train] 14 already extracted, skipping...
+17:31:33  DEBUG     [train] 140 already extracted, skipping...
+17:31:33  DEBUG     [train] 141 already extracted, skipping...
+17:31:33  DEBUG     [train] 143 already extracted, skipping...
+17:31:33  DEBUG     [train] 144 already extracted, skipping...
+17:31:33  DEBUG     [train] 145 already extracted, skipping...
+17:31:33  DEBUG     [train] 146 already extracted, skipping...
+17:31:33  DEBUG     [train] 148 already extracted, skipping...
+17:31:33  DEBUG     [train] 15 already extracted, skipping...
+17:31:33  DEBUG     [train] 150 already extracted, skipping...
+17:31:33  DEBUG     [train] 154 already extracted, skipping...
+17:31:33  DEBUG     [train] 156 already extracted, skipping...
+17:31:33  DEBUG     [train] 157 already extracted, skipping...
+17:31:33  DEBUG     [train] 158 already extracted, skipping...
+17:31:33  DEBUG     [train] 159 already extracted, skipping...
+17:31:33  DEBUG     [train] 160 already extracted, skipping...
+17:31:33  DEBUG     [train] 162 already extracted, skipping...
+17:31:33  DEBUG     [train] 163 already extracted, skipping...
+17:31:34  DEBUG     [train] 165 already extracted, skipping...
+17:31:34  DEBUG     [train] 166 already extracted, skipping...
+17:31:34  DEBUG     [train] 167 already extracted, skipping...
+17:31:34  DEBUG     [train] 169 already extracted, skipping...
+17:31:34  DEBUG     [train] 17 already extracted, skipping...
+17:31:34  DEBUG     [train] 170 already extracted, skipping...
+17:31:34  DEBUG     [train] 172 already extracted, skipping...
+17:31:34  DEBUG     [train] 173 already extracted, skipping...
+17:31:34  DEBUG     [train] 174 already extracted, skipping...
+17:31:34  DEBUG     [train] 176 already extracted, skipping...
+17:31:34  DEBUG     [train] 178 already extracted, skipping...
+17:31:34  DEBUG     [train] 179 already extracted, skipping...
+17:31:34  DEBUG     [train] 180 already extracted, skipping...
+17:31:34  DEBUG     [train] 182 already extracted, skipping...
+17:31:34  DEBUG     [train] 185 already extracted, skipping...
+17:31:34  DEBUG     [train] 188 already extracted, skipping...
+17:31:34  DEBUG     [train] 189 already extracted, skipping...
+17:31:34  DEBUG     [train] 19 already extracted, skipping...
+17:31:34  DEBUG     [train] 192 already extracted, skipping...
+17:31:34  DEBUG     [train] 193 already extracted, skipping...
+17:31:34  DEBUG     [train] 195 already extracted, skipping...
+17:31:34  DEBUG     [train] 196 already extracted, skipping...
+17:31:34  DEBUG     [train] 197 already extracted, skipping...
+17:31:34  DEBUG     [train] 198 already extracted, skipping...
+17:31:34  DEBUG     [train] 199 already extracted, skipping...
+17:31:34  DEBUG     [train] 20 already extracted, skipping...
+17:31:34  DEBUG     [train] 201 already extracted, skipping...
+17:31:34  DEBUG     [train] 202 already extracted, skipping...
+17:31:34  DEBUG     [train] 203 already extracted, skipping...
+17:31:34  DEBUG     [train] 205 already extracted, skipping...
+17:31:34  DEBUG     [train] 206 already extracted, skipping...
+17:31:34  DEBUG     [train] 210 already extracted, skipping...
+17:31:34  DEBUG     [train] 211 already extracted, skipping...
+17:31:34  DEBUG     [train] 213 already extracted, skipping...
+17:31:34  DEBUG     [train] 214 already extracted, skipping...
+17:31:34  DEBUG     [train] 216 already extracted, skipping...
+17:31:34  DEBUG     [train] 217 already extracted, skipping...
+17:31:34  DEBUG     [train] 218 already extracted, skipping...
+17:31:34  DEBUG     [train] 219 already extracted, skipping...
+17:31:34  DEBUG     [train] 22 already extracted, skipping...
+17:31:34  DEBUG     [train] 221 already extracted, skipping...
+17:31:34  DEBUG     [train] 224 already extracted, skipping...
+17:31:34  DEBUG     [train] 226 already extracted, skipping...
+17:31:34  DEBUG     [train] 228 already extracted, skipping...
+17:31:34  DEBUG     [train] 23 already extracted, skipping...
+17:31:34  DEBUG     [train] 235 already extracted, skipping...
+17:31:34  DEBUG     [train] 236 already extracted, skipping...
+17:31:34  DEBUG     [train] 239 already extracted, skipping...
+17:31:34  DEBUG     [train] 24 already extracted, skipping...
+17:31:34  DEBUG     [train] 240 already extracted, skipping...
+17:31:34  DEBUG     [train] 241 already extracted, skipping...
+17:31:34  DEBUG     [train] 243 already extracted, skipping...
+17:31:34  DEBUG     [train] 247 already extracted, skipping...
+17:31:34  DEBUG     [train] 248 already extracted, skipping...
+17:31:34  DEBUG     [train] 249 already extracted, skipping...
+17:31:34  DEBUG     [train] 250 already extracted, skipping...
+17:31:34  DEBUG     [train] 252 already extracted, skipping...
+17:31:34  DEBUG     [train] 254 already extracted, skipping...
+17:31:34  DEBUG     [train] 255 already extracted, skipping...
+17:31:34  DEBUG     [train] 257 already extracted, skipping...
+17:31:34  DEBUG     [train] 262 already extracted, skipping...
+17:31:34  DEBUG     [train] 263 already extracted, skipping...
+17:31:34  DEBUG     [train] 264 already extracted, skipping...
+17:31:34  DEBUG     [train] 265 already extracted, skipping...
+17:31:34  DEBUG     [train] 266 already extracted, skipping...
+17:31:34  DEBUG     [train] 27 already extracted, skipping...
+17:31:34  DEBUG     [train] 270 already extracted, skipping...
+17:31:34  DEBUG     [train] 271 already extracted, skipping...
+17:31:34  DEBUG     [train] 275 already extracted, skipping...
+17:31:34  DEBUG     [train] 276 already extracted, skipping...
+17:31:34  DEBUG     [train] 277 already extracted, skipping...
+17:31:34  DEBUG     [train] 278 already extracted, skipping...
+17:31:34  DEBUG     [train] 279 already extracted, skipping...
+17:31:34  DEBUG     [train] 28 already extracted, skipping...
+17:31:34  DEBUG     [train] 280 already extracted, skipping...
+17:31:34  DEBUG     [train] 281 already extracted, skipping...
+17:31:34  DEBUG     [train] 282 already extracted, skipping...
+17:31:34  DEBUG     [train] 283 already extracted, skipping...
+17:31:34  DEBUG     [train] 284 already extracted, skipping...
+17:31:34  DEBUG     [train] 285 already extracted, skipping...
+17:31:34  DEBUG     [train] 287 already extracted, skipping...
+17:31:34  DEBUG     [train] 29 already extracted, skipping...
+17:31:34  DEBUG     [train] 290 already extracted, skipping...
+17:31:34  DEBUG     [train] 292 already extracted, skipping...
+17:31:34  DEBUG     [train] 293 already extracted, skipping...
+17:31:34  DEBUG     [train] 295 already extracted, skipping...
+17:31:34  DEBUG     [train] 297 already extracted, skipping...
+17:31:34  DEBUG     [train] 298 already extracted, skipping...
+17:31:34  DEBUG     [train] 3 already extracted, skipping...
+17:31:34  DEBUG     [train] 30 already extracted, skipping...
+17:31:34  DEBUG     [train] 301 already extracted, skipping...
+17:31:34  DEBUG     [train] 302 already extracted, skipping...
+17:31:34  DEBUG     [train] 305 already extracted, skipping...
+17:31:34  DEBUG     [train] 307 already extracted, skipping...
+17:31:34  DEBUG     [train] 309 already extracted, skipping...
+17:31:34  DEBUG     [train] 310 already extracted, skipping...
+17:31:34  DEBUG     [train] 312 already extracted, skipping...
+17:31:34  DEBUG     [train] 313 already extracted, skipping...
+17:31:34  DEBUG     [train] 314 already extracted, skipping...
+17:31:34  DEBUG     [train] 316 already extracted, skipping...
+17:31:34  DEBUG     [train] 317 already extracted, skipping...
+17:31:34  DEBUG     [train] 319 already extracted, skipping...
+17:31:34  DEBUG     [train] 32 already extracted, skipping...
+17:31:34  DEBUG     [train] 320 already extracted, skipping...
+17:31:34  DEBUG     [train] 322 already extracted, skipping...
+17:31:34  DEBUG     [train] 323 already extracted, skipping...
+17:31:34  DEBUG     [train] 324 already extracted, skipping...
+17:31:34  DEBUG     [train] 325 already extracted, skipping...
+17:31:34  DEBUG     [train] 327 already extracted, skipping...
+17:31:34  DEBUG     [train] 328 already extracted, skipping...
+17:31:34  DEBUG     [train] 329 already extracted, skipping...
+17:31:34  DEBUG     [train] 33 already extracted, skipping...
+17:31:34  DEBUG     [train] 332 already extracted, skipping...
+17:31:34  DEBUG     [train] 333 already extracted, skipping...
+17:31:34  DEBUG     [train] 339 already extracted, skipping...
+17:31:34  DEBUG     [train] 34 already extracted, skipping...
+17:31:34  DEBUG     [train] 340 already extracted, skipping...
+17:31:34  DEBUG     [train] 341 already extracted, skipping...
+17:31:34  DEBUG     [train] 342 already extracted, skipping...
+17:31:34  DEBUG     [train] 343 already extracted, skipping...
+17:31:34  DEBUG     [train] 346 already extracted, skipping...
+17:31:34  DEBUG     [train] 348 already extracted, skipping...
+17:31:34  DEBUG     [train] 35 already extracted, skipping...
+17:31:34  DEBUG     [train] 350 already extracted, skipping...
+17:31:34  DEBUG     [train] 352 already extracted, skipping...
+17:31:34  DEBUG     [train] 353 already extracted, skipping...
+17:31:34  DEBUG     [train] 355 already extracted, skipping...
+17:31:34  DEBUG     [train] 356 already extracted, skipping...
+17:31:34  DEBUG     [train] 357 already extracted, skipping...
+17:31:34  DEBUG     [train] 358 already extracted, skipping...
+17:31:34  DEBUG     [train] 359 already extracted, skipping...
+17:31:34  DEBUG     [train] 361 already extracted, skipping...
+17:31:34  DEBUG     [train] 362 already extracted, skipping...
+17:31:34  DEBUG     [train] 363 already extracted, skipping...
+17:31:34  DEBUG     [train] 365 already extracted, skipping...
+17:31:34  DEBUG     [train] 366 already extracted, skipping...
+17:31:34  DEBUG     [train] 367 already extracted, skipping...
+17:31:34  DEBUG     [train] 369 already extracted, skipping...
+17:31:34  DEBUG     [train] 37 already extracted, skipping...
+17:31:34  DEBUG     [train] 370 already extracted, skipping...
+17:31:34  DEBUG     [train] 372 already extracted, skipping...
+17:31:34  DEBUG     [train] 373 already extracted, skipping...
+17:31:34  DEBUG     [train] 374 already extracted, skipping...
+17:31:34  DEBUG     [train] 376 already extracted, skipping...
+17:31:34  DEBUG     [train] 377 already extracted, skipping...
+17:31:34  DEBUG     [train] 378 already extracted, skipping...
+17:31:34  DEBUG     [train] 379 already extracted, skipping...
+17:31:34  DEBUG     [train] 38 already extracted, skipping...
+17:31:34  DEBUG     [train] 383 already extracted, skipping...
+17:31:34  DEBUG     [train] 384 already extracted, skipping...
+17:31:34  DEBUG     [train] 385 already extracted, skipping...
+17:31:34  DEBUG     [train] 387 already extracted, skipping...
+17:31:34  DEBUG     [train] 389 already extracted, skipping...
+17:31:34  DEBUG     [train] 39 already extracted, skipping...
+17:31:34  DEBUG     [train] 391 already extracted, skipping...
+17:31:34  DEBUG     [train] 392 already extracted, skipping...
+17:31:34  DEBUG     [train] 393 already extracted, skipping...
+17:31:34  DEBUG     [train] 394 already extracted, skipping...
+17:31:34  DEBUG     [train] 395 already extracted, skipping...
+17:31:34  DEBUG     [train] 397 already extracted, skipping...
+17:31:34  DEBUG     [train] 398 already extracted, skipping...
+17:31:34  DEBUG     [train] 399 already extracted, skipping...
+17:31:34  DEBUG     [train] 40 already extracted, skipping...
+17:31:34  DEBUG     [train] 400 already extracted, skipping...
+17:31:34  DEBUG     [train] 401 already extracted, skipping...
+17:31:34  DEBUG     [train] 403 already extracted, skipping...
+17:31:34  DEBUG     [train] 404 already extracted, skipping...
+17:31:34  DEBUG     [train] 405 already extracted, skipping...
+17:31:34  DEBUG     [train] 407 already extracted, skipping...
+17:31:34  DEBUG     [train] 408 already extracted, skipping...
+17:31:34  DEBUG     [train] 409 already extracted, skipping...
+17:31:34  DEBUG     [train] 41 already extracted, skipping...
+17:31:34  DEBUG     [train] 411 already extracted, skipping...
+17:31:34  DEBUG     [train] 412 already extracted, skipping...
+17:31:34  DEBUG     [train] 414 already extracted, skipping...
+17:31:34  DEBUG     [train] 415 already extracted, skipping...
+17:31:34  DEBUG     [train] 416 already extracted, skipping...
+17:31:34  DEBUG     [train] 419 already extracted, skipping...
+17:31:34  DEBUG     [train] 42 already extracted, skipping...
+17:31:34  DEBUG     [train] 421 already extracted, skipping...
+17:31:34  DEBUG     [train] 422 already extracted, skipping...
+17:31:34  DEBUG     [train] 423 already extracted, skipping...
+17:31:34  DEBUG     [train] 424 already extracted, skipping...
+17:31:34  DEBUG     [train] 425 already extracted, skipping...
+17:31:34  DEBUG     [train] 429 already extracted, skipping...
+17:31:34  DEBUG     [train] 430 already extracted, skipping...
+17:31:34  DEBUG     [train] 431 already extracted, skipping...
+17:31:34  DEBUG     [train] 432 already extracted, skipping...
+17:31:34  DEBUG     [train] 433 already extracted, skipping...
+17:31:34  DEBUG     [train] 435 already extracted, skipping...
+17:31:34  DEBUG     [train] 437 already extracted, skipping...
+17:31:34  DEBUG     [train] 438 already extracted, skipping...
+17:31:34  DEBUG     [train] 439 already extracted, skipping...
+17:31:34  DEBUG     [train] 440 already extracted, skipping...
+17:31:34  DEBUG     [train] 443 already extracted, skipping...
+17:31:34  DEBUG     [train] 444 already extracted, skipping...
+17:31:34  DEBUG     [train] 445 already extracted, skipping...
+17:31:34  DEBUG     [train] 446 already extracted, skipping...
+17:31:34  DEBUG     [train] 45 already extracted, skipping...
+17:31:34  DEBUG     [train] 450 already extracted, skipping...
+17:31:34  DEBUG     [train] 451 already extracted, skipping...
+17:31:34  DEBUG     [train] 452 already extracted, skipping...
+17:31:34  DEBUG     [train] 453 already extracted, skipping...
+17:31:34  DEBUG     [train] 454 already extracted, skipping...
+17:31:34  DEBUG     [train] 456 already extracted, skipping...
+17:31:34  DEBUG     [train] 458 already extracted, skipping...
+17:31:34  DEBUG     [train] 459 already extracted, skipping...
+17:31:34  DEBUG     [train] 462 already extracted, skipping...
+17:31:34  DEBUG     [train] 463 already extracted, skipping...
+17:31:34  DEBUG     [train] 464 already extracted, skipping...
+17:31:34  DEBUG     [train] 465 already extracted, skipping...
+17:31:34  DEBUG     [train] 467 already extracted, skipping...
+17:31:34  DEBUG     [train] 468 already extracted, skipping...
+17:31:34  DEBUG     [train] 469 already extracted, skipping...
+17:31:34  DEBUG     [train] 47 already extracted, skipping...
+17:31:34  DEBUG     [train] 470 already extracted, skipping...
+17:31:34  DEBUG     [train] 473 already extracted, skipping...
+17:31:34  DEBUG     [train] 474 already extracted, skipping...
+17:31:36  DEBUG     [train] 475 saved tensor shape: torch.Size([51, 768])
+17:31:37  DEBUG     [train] 476 saved tensor shape: torch.Size([20, 768])
+17:31:40  DEBUG     [train] 477 saved tensor shape: torch.Size([75, 768])
+17:31:46  DEBUG     [train] 478 saved tensor shape: torch.Size([179, 768])
+17:31:47  DEBUG     [train] 479 saved tensor shape: torch.Size([22, 768])
+17:31:52  DEBUG     [train] 48 saved tensor shape: torch.Size([149, 768])
+17:31:53  DEBUG     [train] 480 saved tensor shape: torch.Size([33, 768])
+17:31:55  DEBUG     [train] 481 saved tensor shape: torch.Size([24, 768])
+17:31:56  DEBUG     [train] 482 saved tensor shape: torch.Size([17, 768])
+17:31:58  DEBUG     [train] 484 saved tensor shape: torch.Size([33, 768])
+17:31:59  DEBUG     [train] 485 saved tensor shape: torch.Size([16, 768])
+17:32:03  DEBUG     [train] 490 saved tensor shape: torch.Size([136, 768])
+17:32:04  DEBUG     [train] 491 saved tensor shape: torch.Size([21, 768])
+17:32:05  DEBUG     [train] 492 saved tensor shape: torch.Size([16, 768])
+17:32:07  DEBUG     [train] 493 saved tensor shape: torch.Size([26, 768])
+17:32:08  DEBUG     [train] 494 saved tensor shape: torch.Size([27, 768])
+17:32:10  DEBUG     [train] 495 saved tensor shape: torch.Size([36, 768])
+17:32:13  DEBUG     [train] 496 saved tensor shape: torch.Size([82, 768])
+17:32:15  DEBUG     [train] 497 saved tensor shape: torch.Size([92, 768])
+17:32:17  DEBUG     [train] 499 saved tensor shape: torch.Size([42, 768])
+17:32:18  DEBUG     [train] 501 saved tensor shape: torch.Size([17, 768])
+17:32:20  DEBUG     [train] 503 saved tensor shape: torch.Size([39, 768])
+17:32:24  DEBUG     [train] 505 saved tensor shape: torch.Size([124, 768])
+17:32:26  DEBUG     [train] 506 saved tensor shape: torch.Size([33, 768])
+17:32:31  DEBUG     [train] 509 saved tensor shape: torch.Size([169, 768])
+17:32:32  DEBUG     [train] 51 saved tensor shape: torch.Size([34, 768])
+17:32:35  DEBUG     [train] 511 saved tensor shape: torch.Size([84, 768])
+17:32:37  DEBUG     [train] 512 saved tensor shape: torch.Size([58, 768])
+17:32:41  DEBUG     [train] 513 saved tensor shape: torch.Size([105, 768])
+17:32:42  DEBUG     [train] 514 saved tensor shape: torch.Size([18, 768])
+17:32:44  DEBUG     [train] 516 saved tensor shape: torch.Size([38, 768])
+17:32:48  DEBUG     [train] 519 saved tensor shape: torch.Size([122, 768])
+17:32:50  DEBUG     [train] 520 saved tensor shape: torch.Size([63, 768])
+17:32:52  DEBUG     [train] 521 saved tensor shape: torch.Size([33, 768])
+17:32:53  DEBUG     [train] 522 saved tensor shape: torch.Size([20, 768])
+17:32:54  DEBUG     [train] 524 saved tensor shape: torch.Size([21, 768])
+17:32:56  DEBUG     [train] 527 saved tensor shape: torch.Size([47, 768])
+17:32:58  DEBUG     [train] 529 saved tensor shape: torch.Size([29, 768])
+17:32:59  DEBUG     [train] 530 saved tensor shape: torch.Size([29, 768])
+17:33:07  DEBUG     [train] 531 saved tensor shape: torch.Size([233, 768])
+17:33:08  DEBUG     [train] 533 saved tensor shape: torch.Size([12, 768])
+17:33:14  DEBUG     [train] 537 saved tensor shape: torch.Size([201, 768])
+17:33:15  DEBUG     [train] 538 saved tensor shape: torch.Size([10, 768])
+17:33:22  DEBUG     [train] 541 saved tensor shape: torch.Size([213, 768])
+17:33:24  DEBUG     [train] 543 saved tensor shape: torch.Size([47, 768])
+17:33:25  DEBUG     [train] 544 saved tensor shape: torch.Size([10, 768])
+17:33:27  DEBUG     [train] 545 saved tensor shape: torch.Size([21, 768])
+17:33:28  DEBUG     [train] 547 saved tensor shape: torch.Size([18, 768])
+17:33:29  DEBUG     [train] 549 saved tensor shape: torch.Size([36, 768])
+17:33:31  DEBUG     [train] 55 saved tensor shape: torch.Size([28, 768])
+17:33:32  DEBUG     [train] 550 saved tensor shape: torch.Size([16, 768])
+17:33:36  DEBUG     [train] 551 saved tensor shape: torch.Size([122, 768])
+17:33:38  DEBUG     [train] 552 saved tensor shape: torch.Size([38, 768])
+17:34:34  INFO      ======================================================================
+17:34:34  INFO        Phase 2: Foundation Model Feature Extraction
+17:34:34  INFO      ======================================================================
+17:34:34  INFO        Model       : owkin/phikon
+17:34:34  INFO        Batch size  : 256
+17:34:34  INFO        Workers     : 32
+17:34:34  INFO        Splits      : ['train', 'val', 'test']
+17:34:34  INFO        Device      : cuda
+17:34:34  INFO      Loading Foundation Model: owkin/phikon
+17:34:36  INFO        Embed Dim   : 768
+17:34:36  INFO      [train] Found 630 patients in /home/cgntlab5/bcnb/BCNB dataset/outputs/patches/train
+17:34:38  DEBUG     [train] 1 saved tensor shape: torch.Size([25, 768])
+17:34:39  DEBUG     [train] 10 saved tensor shape: torch.Size([39, 768])
+17:34:42  DEBUG     [train] 100 saved tensor shape: torch.Size([89, 768])
+17:34:43  DEBUG     [train] 1001 saved tensor shape: torch.Size([62, 768])
+17:34:45  DEBUG     [train] 1002 saved tensor shape: torch.Size([79, 768])
+17:34:47  DEBUG     [train] 1003 saved tensor shape: torch.Size([47, 768])
+17:34:52  DEBUG     [train] 1004 saved tensor shape: torch.Size([327, 768])
+17:34:53  DEBUG     [train] 1005 saved tensor shape: torch.Size([36, 768])
+17:34:59  DEBUG     [train] 1007 saved tensor shape: torch.Size([415, 768])
+17:35:00  DEBUG     [train] 1008 saved tensor shape: torch.Size([49, 768])
+17:35:01  DEBUG     [train] 1009 saved tensor shape: torch.Size([13, 768])
+17:35:06  DEBUG     [train] 1010 saved tensor shape: torch.Size([326, 768])
+17:35:08  DEBUG     [train] 1012 saved tensor shape: torch.Size([34, 768])
+17:35:09  DEBUG     [train] 1013 saved tensor shape: torch.Size([27, 768])
+17:35:10  DEBUG     [train] 1016 saved tensor shape: torch.Size([28, 768])
+17:35:13  DEBUG     [train] 1017 saved tensor shape: torch.Size([66, 768])
+17:35:15  DEBUG     [train] 1019 saved tensor shape: torch.Size([112, 768])
+17:35:16  DEBUG     [train] 1020 saved tensor shape: torch.Size([37, 768])
+17:35:18  DEBUG     [train] 1022 saved tensor shape: torch.Size([25, 768])
+17:35:23  DEBUG     [train] 1023 saved tensor shape: torch.Size([540, 768])
+17:35:29  DEBUG     [train] 1024 saved tensor shape: torch.Size([418, 768])
+17:35:30  DEBUG     [train] 1025 saved tensor shape: torch.Size([27, 768])
+17:35:31  DEBUG     [train] 1029 saved tensor shape: torch.Size([19, 768])
+17:35:32  DEBUG     [train] 1035 saved tensor shape: torch.Size([32, 768])
+17:35:34  DEBUG     [train] 1036 saved tensor shape: torch.Size([77, 768])
+17:35:36  DEBUG     [train] 1039 saved tensor shape: torch.Size([53, 768])
+17:35:37  DEBUG     [train] 104 saved tensor shape: torch.Size([16, 768])
+17:35:38  DEBUG     [train] 1042 saved tensor shape: torch.Size([19, 768])
+17:35:40  DEBUG     [train] 1044 saved tensor shape: torch.Size([37, 768])
+17:35:41  DEBUG     [train] 1045 saved tensor shape: torch.Size([10, 768])
+17:35:42  DEBUG     [train] 1046 saved tensor shape: torch.Size([51, 768])
+17:35:43  DEBUG     [train] 1047 saved tensor shape: torch.Size([28, 768])
+17:35:45  DEBUG     [train] 1048 saved tensor shape: torch.Size([18, 768])
+17:35:46  DEBUG     [train] 1050 saved tensor shape: torch.Size([35, 768])
+17:35:47  DEBUG     [train] 1052 saved tensor shape: torch.Size([26, 768])
+17:35:49  DEBUG     [train] 1053 saved tensor shape: torch.Size([23, 768])
+17:35:51  DEBUG     [train] 1057 saved tensor shape: torch.Size([138, 768])
+17:35:55  DEBUG     [train] 110 saved tensor shape: torch.Size([191, 768])
+17:35:56  DEBUG     [train] 111 saved tensor shape: torch.Size([32, 768])
+17:35:58  DEBUG     [train] 113 saved tensor shape: torch.Size([21, 768])
+17:35:58  DEBUG     [train] 114 saved tensor shape: torch.Size([10, 768])
+17:35:59  DEBUG     [train] 116 saved tensor shape: torch.Size([14, 768])
+17:36:01  DEBUG     [train] 117 saved tensor shape: torch.Size([70, 768])
+17:36:02  DEBUG     [train] 12 saved tensor shape: torch.Size([10, 768])
+17:36:04  DEBUG     [train] 122 saved tensor shape: torch.Size([43, 768])
+17:36:05  DEBUG     [train] 123 saved tensor shape: torch.Size([37, 768])
+17:36:07  DEBUG     [train] 124 saved tensor shape: torch.Size([55, 768])
+17:36:08  DEBUG     [train] 125 saved tensor shape: torch.Size([28, 768])
+17:36:09  DEBUG     [train] 126 saved tensor shape: torch.Size([40, 768])
+17:36:10  DEBUG     [train] 13 saved tensor shape: torch.Size([22, 768])
+17:36:13  DEBUG     [train] 130 saved tensor shape: torch.Size([132, 768])
+17:36:16  DEBUG     [train] 132 saved tensor shape: torch.Size([81, 768])
+17:36:20  DEBUG     [train] 133 saved tensor shape: torch.Size([264, 768])
+17:36:22  DEBUG     [train] 134 saved tensor shape: torch.Size([25, 768])
+17:36:23  DEBUG     [train] 136 saved tensor shape: torch.Size([15, 768])
+17:36:24  DEBUG     [train] 137 saved tensor shape: torch.Size([17, 768])
+17:36:25  DEBUG     [train] 14 saved tensor shape: torch.Size([9, 768])
+17:36:28  DEBUG     [train] 140 saved tensor shape: torch.Size([154, 768])
+17:36:29  DEBUG     [train] 141 saved tensor shape: torch.Size([10, 768])
+17:36:30  DEBUG     [train] 143 saved tensor shape: torch.Size([26, 768])
+17:36:33  DEBUG     [train] 144 saved tensor shape: torch.Size([111, 768])
+17:36:34  DEBUG     [train] 145 saved tensor shape: torch.Size([39, 768])
+17:36:35  DEBUG     [train] 146 saved tensor shape: torch.Size([29, 768])
+17:36:40  DEBUG     [train] 148 saved tensor shape: torch.Size([220, 768])
+17:36:41  DEBUG     [train] 15 saved tensor shape: torch.Size([21, 768])
+17:36:42  DEBUG     [train] 150 saved tensor shape: torch.Size([51, 768])
+17:36:44  DEBUG     [train] 154 saved tensor shape: torch.Size([26, 768])
+17:36:49  DEBUG     [train] 156 saved tensor shape: torch.Size([282, 768])
+17:36:49  DEBUG     [train] 157 saved tensor shape: torch.Size([10, 768])
+17:36:51  DEBUG     [train] 158 saved tensor shape: torch.Size([66, 768])
+17:36:53  DEBUG     [train] 159 saved tensor shape: torch.Size([32, 768])
+17:36:54  DEBUG     [train] 160 saved tensor shape: torch.Size([44, 768])
+17:36:56  DEBUG     [train] 162 saved tensor shape: torch.Size([99, 768])
+17:36:58  DEBUG     [train] 163 saved tensor shape: torch.Size([60, 768])
+17:37:00  DEBUG     [train] 165 saved tensor shape: torch.Size([94, 768])
+17:37:04  DEBUG     [train] 166 saved tensor shape: torch.Size([201, 768])
+17:37:06  DEBUG     [train] 167 saved tensor shape: torch.Size([40, 768])
+17:37:07  DEBUG     [train] 169 saved tensor shape: torch.Size([20, 768])
+17:37:08  DEBUG     [train] 17 saved tensor shape: torch.Size([26, 768])
+17:37:09  DEBUG     [train] 170 saved tensor shape: torch.Size([12, 768])
+17:37:13  DEBUG     [train] 172 saved tensor shape: torch.Size([215, 768])
+17:37:15  DEBUG     [train] 173 saved tensor shape: torch.Size([22, 768])
+17:37:17  DEBUG     [train] 174 saved tensor shape: torch.Size([117, 768])
+17:37:18  DEBUG     [train] 176 saved tensor shape: torch.Size([21, 768])
+17:37:19  DEBUG     [train] 178 saved tensor shape: torch.Size([22, 768])
+17:37:22  DEBUG     [train] 179 saved tensor shape: torch.Size([108, 768])
+17:37:23  DEBUG     [train] 180 saved tensor shape: torch.Size([39, 768])
+17:37:24  DEBUG     [train] 182 saved tensor shape: torch.Size([23, 768])
+17:37:25  DEBUG     [train] 185 saved tensor shape: torch.Size([21, 768])
+17:37:27  DEBUG     [train] 188 saved tensor shape: torch.Size([43, 768])
+17:37:28  DEBUG     [train] 189 saved tensor shape: torch.Size([53, 768])
+17:37:30  DEBUG     [train] 19 saved tensor shape: torch.Size([58, 768])
+17:37:31  DEBUG     [train] 192 saved tensor shape: torch.Size([16, 768])
+17:37:32  DEBUG     [train] 193 saved tensor shape: torch.Size([22, 768])
+17:37:34  DEBUG     [train] 195 saved tensor shape: torch.Size([41, 768])
+17:37:35  DEBUG     [train] 196 saved tensor shape: torch.Size([25, 768])
+17:37:36  DEBUG     [train] 197 saved tensor shape: torch.Size([20, 768])
+17:37:39  DEBUG     [train] 198 saved tensor shape: torch.Size([109, 768])
+17:37:41  DEBUG     [train] 199 saved tensor shape: torch.Size([121, 768])
+17:37:48  DEBUG     [train] 20 saved tensor shape: torch.Size([1086, 768])
+17:37:52  DEBUG     [train] 201 saved tensor shape: torch.Size([184, 768])
+17:37:53  DEBUG     [train] 202 saved tensor shape: torch.Size([31, 768])
+17:37:54  DEBUG     [train] 203 saved tensor shape: torch.Size([24, 768])
+17:37:57  DEBUG     [train] 205 saved tensor shape: torch.Size([98, 768])
+17:37:58  DEBUG     [train] 206 saved tensor shape: torch.Size([42, 768])
+17:37:59  DEBUG     [train] 210 saved tensor shape: torch.Size([23, 768])
+17:38:01  DEBUG     [train] 211 saved tensor shape: torch.Size([31, 768])
+17:38:02  DEBUG     [train] 213 saved tensor shape: torch.Size([32, 768])
+17:38:03  DEBUG     [train] 214 saved tensor shape: torch.Size([25, 768])
+17:38:04  DEBUG     [train] 216 saved tensor shape: torch.Size([22, 768])
+17:38:05  DEBUG     [train] 217 saved tensor shape: torch.Size([14, 768])
+17:38:07  DEBUG     [train] 218 saved tensor shape: torch.Size([51, 768])
+17:38:08  DEBUG     [train] 219 saved tensor shape: torch.Size([22, 768])
+17:38:10  DEBUG     [train] 22 saved tensor shape: torch.Size([67, 768])
+17:38:11  DEBUG     [train] 221 saved tensor shape: torch.Size([28, 768])
+17:38:13  DEBUG     [train] 224 saved tensor shape: torch.Size([41, 768])
+17:38:14  DEBUG     [train] 226 saved tensor shape: torch.Size([8, 768])
+17:38:15  DEBUG     [train] 228 saved tensor shape: torch.Size([16, 768])
+17:38:16  DEBUG     [train] 23 saved tensor shape: torch.Size([60, 768])
+17:38:19  DEBUG     [train] 235 saved tensor shape: torch.Size([88, 768])
+17:38:20  DEBUG     [train] 236 saved tensor shape: torch.Size([38, 768])
+17:38:21  DEBUG     [train] 239 saved tensor shape: torch.Size([20, 768])
+17:38:22  DEBUG     [train] 24 saved tensor shape: torch.Size([9, 768])
+17:38:23  DEBUG     [train] 240 saved tensor shape: torch.Size([13, 768])
+17:38:24  DEBUG     [train] 241 saved tensor shape: torch.Size([20, 768])
+17:38:26  DEBUG     [train] 243 saved tensor shape: torch.Size([73, 768])
+17:38:29  DEBUG     [train] 247 saved tensor shape: torch.Size([93, 768])
+17:38:30  DEBUG     [train] 248 saved tensor shape: torch.Size([42, 768])
+17:38:32  DEBUG     [train] 249 saved tensor shape: torch.Size([60, 768])
+17:38:33  DEBUG     [train] 250 saved tensor shape: torch.Size([13, 768])
+17:38:34  DEBUG     [train] 252 saved tensor shape: torch.Size([14, 768])
+17:38:38  DEBUG     [train] 254 saved tensor shape: torch.Size([186, 768])
+17:38:40  DEBUG     [train] 255 saved tensor shape: torch.Size([42, 768])
+17:38:41  DEBUG     [train] 257 saved tensor shape: torch.Size([27, 768])
+17:38:43  DEBUG     [train] 262 saved tensor shape: torch.Size([39, 768])
+17:38:44  DEBUG     [train] 263 saved tensor shape: torch.Size([27, 768])
+17:38:45  DEBUG     [train] 264 saved tensor shape: torch.Size([19, 768])
+17:38:47  DEBUG     [train] 265 saved tensor shape: torch.Size([84, 768])
+17:38:48  DEBUG     [train] 266 saved tensor shape: torch.Size([17, 768])
+17:38:50  DEBUG     [train] 27 saved tensor shape: torch.Size([73, 768])
+17:38:53  DEBUG     [train] 270 saved tensor shape: torch.Size([119, 768])
+17:38:56  DEBUG     [train] 271 saved tensor shape: torch.Size([107, 768])
+17:39:00  DEBUG     [train] 275 saved tensor shape: torch.Size([172, 768])
+17:39:01  DEBUG     [train] 276 saved tensor shape: torch.Size([54, 768])
+17:39:02  DEBUG     [train] 277 saved tensor shape: torch.Size([17, 768])
+17:39:04  DEBUG     [train] 278 saved tensor shape: torch.Size([30, 768])
+17:39:05  DEBUG     [train] 279 saved tensor shape: torch.Size([29, 768])
+17:39:06  DEBUG     [train] 28 saved tensor shape: torch.Size([34, 768])
+17:39:08  DEBUG     [train] 280 saved tensor shape: torch.Size([60, 768])
+17:39:10  DEBUG     [train] 281 saved tensor shape: torch.Size([43, 768])
+17:39:11  DEBUG     [train] 282 saved tensor shape: torch.Size([22, 768])
+17:39:13  DEBUG     [train] 283 saved tensor shape: torch.Size([41, 768])
+17:39:15  DEBUG     [train] 284 saved tensor shape: torch.Size([69, 768])
+17:39:16  DEBUG     [train] 285 saved tensor shape: torch.Size([58, 768])
+17:39:17  DEBUG     [train] 287 saved tensor shape: torch.Size([14, 768])
+17:39:19  DEBUG     [train] 29 saved tensor shape: torch.Size([30, 768])
+17:39:20  DEBUG     [train] 290 saved tensor shape: torch.Size([15, 768])
+17:39:21  DEBUG     [train] 292 saved tensor shape: torch.Size([14, 768])
+17:39:24  DEBUG     [train] 293 saved tensor shape: torch.Size([122, 768])
+17:39:26  DEBUG     [train] 295 saved tensor shape: torch.Size([70, 768])
+17:39:29  DEBUG     [train] 297 saved tensor shape: torch.Size([114, 768])
+17:39:31  DEBUG     [train] 298 saved tensor shape: torch.Size([97, 768])
+17:39:33  DEBUG     [train] 3 saved tensor shape: torch.Size([74, 768])
+17:39:35  DEBUG     [train] 30 saved tensor shape: torch.Size([41, 768])
+17:39:36  DEBUG     [train] 301 saved tensor shape: torch.Size([43, 768])
+17:39:38  DEBUG     [train] 302 saved tensor shape: torch.Size([22, 768])
+17:39:39  DEBUG     [train] 305 saved tensor shape: torch.Size([24, 768])
+17:39:40  DEBUG     [train] 307 saved tensor shape: torch.Size([30, 768])
+17:39:42  DEBUG     [train] 309 saved tensor shape: torch.Size([47, 768])
+17:39:43  DEBUG     [train] 310 saved tensor shape: torch.Size([13, 768])
+17:39:44  DEBUG     [train] 312 saved tensor shape: torch.Size([46, 768])
+17:39:46  DEBUG     [train] 313 saved tensor shape: torch.Size([24, 768])
+17:39:47  DEBUG     [train] 314 saved tensor shape: torch.Size([30, 768])
+17:39:48  DEBUG     [train] 316 saved tensor shape: torch.Size([10, 768])
+17:39:49  DEBUG     [train] 317 saved tensor shape: torch.Size([28, 768])
+17:39:50  DEBUG     [train] 319 saved tensor shape: torch.Size([24, 768])
+17:39:52  DEBUG     [train] 32 saved tensor shape: torch.Size([26, 768])
+17:39:53  DEBUG     [train] 320 saved tensor shape: torch.Size([11, 768])
+17:39:54  DEBUG     [train] 322 saved tensor shape: torch.Size([36, 768])
+17:39:55  DEBUG     [train] 323 saved tensor shape: torch.Size([21, 768])
+17:39:58  DEBUG     [train] 324 saved tensor shape: torch.Size([126, 768])
+17:40:00  DEBUG     [train] 325 saved tensor shape: torch.Size([69, 768])
+17:40:02  DEBUG     [train] 327 saved tensor shape: torch.Size([25, 768])
+17:40:03  DEBUG     [train] 328 saved tensor shape: torch.Size([39, 768])
+17:40:04  DEBUG     [train] 329 saved tensor shape: torch.Size([24, 768])
+17:40:06  DEBUG     [train] 33 saved tensor shape: torch.Size([76, 768])
+17:40:08  DEBUG     [train] 332 saved tensor shape: torch.Size([30, 768])
+17:40:09  DEBUG     [train] 333 saved tensor shape: torch.Size([20, 768])
+17:40:10  DEBUG     [train] 339 saved tensor shape: torch.Size([34, 768])
+17:40:12  DEBUG     [train] 34 saved tensor shape: torch.Size([53, 768])
+17:40:14  DEBUG     [train] 340 saved tensor shape: torch.Size([21, 768])
+17:40:16  DEBUG     [train] 341 saved tensor shape: torch.Size([68, 768])
+17:40:17  DEBUG     [train] 342 saved tensor shape: torch.Size([20, 768])
+17:40:18  DEBUG     [train] 343 saved tensor shape: torch.Size([21, 768])
+17:40:19  DEBUG     [train] 346 saved tensor shape: torch.Size([19, 768])
+17:40:20  DEBUG     [train] 348 saved tensor shape: torch.Size([21, 768])
+17:40:21  DEBUG     [train] 35 saved tensor shape: torch.Size([16, 768])
+17:40:24  DEBUG     [train] 350 saved tensor shape: torch.Size([88, 768])
+17:40:25  DEBUG     [train] 352 saved tensor shape: torch.Size([24, 768])
+17:40:27  DEBUG     [train] 353 saved tensor shape: torch.Size([44, 768])
+17:40:28  DEBUG     [train] 355 saved tensor shape: torch.Size([22, 768])
+17:40:29  DEBUG     [train] 356 saved tensor shape: torch.Size([31, 768])
+17:40:30  DEBUG     [train] 357 saved tensor shape: torch.Size([13, 768])
+17:40:32  DEBUG     [train] 358 saved tensor shape: torch.Size([34, 768])
+17:40:33  DEBUG     [train] 359 saved tensor shape: torch.Size([35, 768])
+17:40:35  DEBUG     [train] 361 saved tensor shape: torch.Size([52, 768])
+17:40:36  DEBUG     [train] 362 saved tensor shape: torch.Size([19, 768])
+17:40:38  DEBUG     [train] 363 saved tensor shape: torch.Size([93, 768])
+17:40:40  DEBUG     [train] 365 saved tensor shape: torch.Size([52, 768])
+17:40:41  DEBUG     [train] 366 saved tensor shape: torch.Size([28, 768])
+17:40:42  DEBUG     [train] 367 saved tensor shape: torch.Size([16, 768])
+17:40:45  DEBUG     [train] 369 saved tensor shape: torch.Size([116, 768])
+17:40:51  DEBUG     [train] 37 saved tensor shape: torch.Size([271, 768])
+17:40:53  DEBUG     [train] 370 saved tensor shape: torch.Size([49, 768])
+17:40:55  DEBUG     [train] 372 saved tensor shape: torch.Size([116, 768])
+17:40:56  DEBUG     [train] 373 saved tensor shape: torch.Size([10, 768])
+17:40:58  DEBUG     [train] 374 saved tensor shape: torch.Size([20, 768])
+17:40:59  DEBUG     [train] 376 saved tensor shape: torch.Size([32, 768])
+17:41:01  DEBUG     [train] 377 saved tensor shape: torch.Size([91, 768])
+17:41:07  DEBUG     [train] 378 saved tensor shape: torch.Size([303, 768])
+17:41:08  DEBUG     [train] 379 saved tensor shape: torch.Size([26, 768])
+17:41:10  DEBUG     [train] 38 saved tensor shape: torch.Size([52, 768])
+17:41:11  DEBUG     [train] 383 saved tensor shape: torch.Size([14, 768])
+17:41:13  DEBUG     [train] 384 saved tensor shape: torch.Size([98, 768])
+17:41:15  DEBUG     [train] 385 saved tensor shape: torch.Size([25, 768])
+17:41:17  DEBUG     [train] 387 saved tensor shape: torch.Size([77, 768])
+17:41:18  DEBUG     [train] 389 saved tensor shape: torch.Size([32, 768])
+17:41:19  DEBUG     [train] 39 saved tensor shape: torch.Size([12, 768])
+17:41:20  DEBUG     [train] 391 saved tensor shape: torch.Size([22, 768])
+17:41:21  DEBUG     [train] 392 saved tensor shape: torch.Size([20, 768])
+17:41:23  DEBUG     [train] 393 saved tensor shape: torch.Size([68, 768])
+17:41:25  DEBUG     [train] 394 saved tensor shape: torch.Size([52, 768])
+17:41:29  DEBUG     [train] 395 saved tensor shape: torch.Size([161, 768])
+17:41:30  DEBUG     [train] 397 saved tensor shape: torch.Size([15, 768])
+17:41:31  DEBUG     [train] 398 saved tensor shape: torch.Size([36, 768])
+17:41:33  DEBUG     [train] 399 saved tensor shape: torch.Size([21, 768])
+17:41:35  DEBUG     [train] 40 saved tensor shape: torch.Size([77, 768])
+17:41:36  DEBUG     [train] 400 saved tensor shape: torch.Size([46, 768])
+17:41:39  DEBUG     [train] 401 saved tensor shape: torch.Size([89, 768])
+17:41:40  DEBUG     [train] 403 saved tensor shape: torch.Size([36, 768])
+17:41:46  DEBUG     [train] 404 saved tensor shape: torch.Size([371, 768])
+17:41:47  DEBUG     [train] 405 saved tensor shape: torch.Size([37, 768])
+17:41:50  DEBUG     [train] 407 saved tensor shape: torch.Size([103, 768])
+17:41:51  DEBUG     [train] 408 saved tensor shape: torch.Size([30, 768])
+17:41:52  DEBUG     [train] 409 saved tensor shape: torch.Size([19, 768])
+17:41:54  DEBUG     [train] 41 saved tensor shape: torch.Size([84, 768])
+17:41:55  DEBUG     [train] 411 saved tensor shape: torch.Size([15, 768])
+17:41:57  DEBUG     [train] 412 saved tensor shape: torch.Size([60, 768])
+17:41:59  DEBUG     [train] 414 saved tensor shape: torch.Size([99, 768])
+17:42:00  DEBUG     [train] 415 saved tensor shape: torch.Size([14, 768])
+17:42:02  DEBUG     [train] 416 saved tensor shape: torch.Size([56, 768])
+17:42:02  DEBUG     [train] 419 saved tensor shape: torch.Size([10, 768])
+17:42:03  DEBUG     [train] 42 saved tensor shape: torch.Size([15, 768])
+17:42:05  DEBUG     [train] 421 saved tensor shape: torch.Size([51, 768])
+17:42:09  DEBUG     [train] 422 saved tensor shape: torch.Size([178, 768])
+17:42:14  DEBUG     [train] 423 saved tensor shape: torch.Size([350, 768])
+17:42:15  DEBUG     [train] 424 saved tensor shape: torch.Size([27, 768])
+17:42:16  DEBUG     [train] 425 saved tensor shape: torch.Size([16, 768])
+17:42:17  DEBUG     [train] 429 saved tensor shape: torch.Size([29, 768])
+17:42:19  DEBUG     [train] 430 saved tensor shape: torch.Size([55, 768])
+17:42:23  DEBUG     [train] 431 saved tensor shape: torch.Size([192, 768])
+17:42:24  DEBUG     [train] 432 saved tensor shape: torch.Size([13, 768])
+17:42:26  DEBUG     [train] 433 saved tensor shape: torch.Size([131, 768])
+17:42:28  DEBUG     [train] 435 saved tensor shape: torch.Size([32, 768])
+17:42:29  DEBUG     [train] 437 saved tensor shape: torch.Size([67, 768])
+17:42:32  DEBUG     [train] 438 saved tensor shape: torch.Size([103, 768])
+17:42:33  DEBUG     [train] 439 saved tensor shape: torch.Size([43, 768])
+17:42:35  DEBUG     [train] 440 saved tensor shape: torch.Size([35, 768])
+17:42:36  DEBUG     [train] 443 saved tensor shape: torch.Size([9, 768])
+17:42:38  DEBUG     [train] 444 saved tensor shape: torch.Size([64, 768])
+17:42:40  DEBUG     [train] 445 saved tensor shape: torch.Size([73, 768])
+17:42:42  DEBUG     [train] 446 saved tensor shape: torch.Size([91, 768])
+17:42:43  DEBUG     [train] 45 saved tensor shape: torch.Size([20, 768])
+17:42:44  DEBUG     [train] 450 saved tensor shape: torch.Size([17, 768])
+17:42:46  DEBUG     [train] 451 saved tensor shape: torch.Size([112, 768])
+17:42:48  DEBUG     [train] 452 saved tensor shape: torch.Size([74, 768])
+17:42:50  DEBUG     [train] 453 saved tensor shape: torch.Size([48, 768])
+17:42:51  DEBUG     [train] 454 saved tensor shape: torch.Size([32, 768])
+17:42:52  DEBUG     [train] 456 saved tensor shape: torch.Size([15, 768])
+17:42:53  DEBUG     [train] 458 saved tensor shape: torch.Size([13, 768])
+17:42:55  DEBUG     [train] 459 saved tensor shape: torch.Size([33, 768])
+17:42:56  DEBUG     [train] 462 saved tensor shape: torch.Size([33, 768])
+17:42:59  DEBUG     [train] 463 saved tensor shape: torch.Size([138, 768])
+17:43:00  DEBUG     [train] 464 saved tensor shape: torch.Size([25, 768])
+17:43:04  DEBUG     [train] 465 saved tensor shape: torch.Size([215, 768])
+17:43:07  DEBUG     [train] 467 saved tensor shape: torch.Size([120, 768])
+17:43:08  DEBUG     [train] 468 saved tensor shape: torch.Size([34, 768])
+17:43:09  DEBUG     [train] 469 saved tensor shape: torch.Size([28, 768])
+17:43:10  DEBUG     [train] 47 saved tensor shape: torch.Size([12, 768])
+17:43:13  DEBUG     [train] 470 saved tensor shape: torch.Size([104, 768])
+17:43:14  DEBUG     [train] 473 saved tensor shape: torch.Size([21, 768])
+17:43:16  DEBUG     [train] 474 saved tensor shape: torch.Size([105, 768])
+17:43:18  DEBUG     [train] 475 saved tensor shape: torch.Size([51, 768])
+17:43:19  DEBUG     [train] 476 saved tensor shape: torch.Size([20, 768])
+17:43:23  DEBUG     [train] 477 saved tensor shape: torch.Size([75, 768])
+17:43:28  DEBUG     [train] 478 saved tensor shape: torch.Size([179, 768])
+17:43:29  DEBUG     [train] 479 saved tensor shape: torch.Size([22, 768])
+17:43:32  DEBUG     [train] 48 saved tensor shape: torch.Size([149, 768])
+17:43:34  DEBUG     [train] 480 saved tensor shape: torch.Size([33, 768])
+17:43:35  DEBUG     [train] 481 saved tensor shape: torch.Size([24, 768])
+17:43:36  DEBUG     [train] 482 saved tensor shape: torch.Size([17, 768])
+17:43:37  DEBUG     [train] 484 saved tensor shape: torch.Size([33, 768])
+17:43:38  DEBUG     [train] 485 saved tensor shape: torch.Size([16, 768])
+17:43:41  DEBUG     [train] 490 saved tensor shape: torch.Size([136, 768])
+17:43:42  DEBUG     [train] 491 saved tensor shape: torch.Size([21, 768])
+17:43:43  DEBUG     [train] 492 saved tensor shape: torch.Size([16, 768])
+17:43:45  DEBUG     [train] 493 saved tensor shape: torch.Size([26, 768])
+17:43:46  DEBUG     [train] 494 saved tensor shape: torch.Size([27, 768])
+17:43:47  DEBUG     [train] 495 saved tensor shape: torch.Size([36, 768])
+17:43:50  DEBUG     [train] 496 saved tensor shape: torch.Size([82, 768])
+17:43:52  DEBUG     [train] 497 saved tensor shape: torch.Size([92, 768])
+17:43:54  DEBUG     [train] 499 saved tensor shape: torch.Size([42, 768])
+17:43:55  DEBUG     [train] 501 saved tensor shape: torch.Size([17, 768])
+17:43:56  DEBUG     [train] 503 saved tensor shape: torch.Size([39, 768])
+17:43:59  DEBUG     [train] 505 saved tensor shape: torch.Size([124, 768])
+17:44:01  DEBUG     [train] 506 saved tensor shape: torch.Size([33, 768])
+17:44:05  DEBUG     [train] 509 saved tensor shape: torch.Size([169, 768])
+17:44:06  DEBUG     [train] 51 saved tensor shape: torch.Size([34, 768])
+17:44:08  DEBUG     [train] 511 saved tensor shape: torch.Size([84, 768])
+17:44:10  DEBUG     [train] 512 saved tensor shape: torch.Size([58, 768])
+17:44:12  DEBUG     [train] 513 saved tensor shape: torch.Size([105, 768])
+17:44:13  DEBUG     [train] 514 saved tensor shape: torch.Size([18, 768])
+17:44:15  DEBUG     [train] 516 saved tensor shape: torch.Size([38, 768])
+17:44:17  DEBUG     [train] 519 saved tensor shape: torch.Size([122, 768])
+17:44:19  DEBUG     [train] 520 saved tensor shape: torch.Size([63, 768])
+17:44:21  DEBUG     [train] 521 saved tensor shape: torch.Size([33, 768])
+17:44:22  DEBUG     [train] 522 saved tensor shape: torch.Size([20, 768])
+17:44:23  DEBUG     [train] 524 saved tensor shape: torch.Size([21, 768])
+17:44:24  DEBUG     [train] 527 saved tensor shape: torch.Size([47, 768])
+17:44:26  DEBUG     [train] 529 saved tensor shape: torch.Size([29, 768])
+17:44:27  DEBUG     [train] 530 saved tensor shape: torch.Size([29, 768])
+17:44:32  DEBUG     [train] 531 saved tensor shape: torch.Size([233, 768])
+17:44:33  DEBUG     [train] 533 saved tensor shape: torch.Size([12, 768])
+17:44:37  DEBUG     [train] 537 saved tensor shape: torch.Size([201, 768])
+17:44:38  DEBUG     [train] 538 saved tensor shape: torch.Size([10, 768])
+17:44:42  DEBUG     [train] 541 saved tensor shape: torch.Size([213, 768])
+17:44:43  DEBUG     [train] 543 saved tensor shape: torch.Size([47, 768])
+17:44:44  DEBUG     [train] 544 saved tensor shape: torch.Size([10, 768])
+17:44:45  DEBUG     [train] 545 saved tensor shape: torch.Size([21, 768])
+17:44:47  DEBUG     [train] 547 saved tensor shape: torch.Size([18, 768])
+17:44:48  DEBUG     [train] 549 saved tensor shape: torch.Size([36, 768])
+17:44:49  DEBUG     [train] 55 saved tensor shape: torch.Size([28, 768])
+17:44:50  DEBUG     [train] 550 saved tensor shape: torch.Size([16, 768])
+17:44:53  DEBUG     [train] 551 saved tensor shape: torch.Size([122, 768])
+17:44:54  DEBUG     [train] 552 saved tensor shape: torch.Size([38, 768])
+17:44:57  DEBUG     [train] 553 saved tensor shape: torch.Size([99, 768])
+17:44:58  DEBUG     [train] 554 saved tensor shape: torch.Size([39, 768])
+17:45:00  DEBUG     [train] 556 saved tensor shape: torch.Size([20, 768])
+17:45:02  DEBUG     [train] 558 saved tensor shape: torch.Size([42, 768])
+17:45:04  DEBUG     [train] 559 saved tensor shape: torch.Size([77, 768])
+17:45:06  DEBUG     [train] 56 saved tensor shape: torch.Size([24, 768])
+17:45:09  DEBUG     [train] 560 saved tensor shape: torch.Size([88, 768])
+17:45:10  DEBUG     [train] 562 saved tensor shape: torch.Size([28, 768])
+17:45:12  DEBUG     [train] 564 saved tensor shape: torch.Size([39, 768])
+17:45:14  DEBUG     [train] 567 saved tensor shape: torch.Size([54, 768])
+17:45:20  DEBUG     [train] 57 saved tensor shape: torch.Size([190, 768])
+17:45:24  DEBUG     [train] 570 saved tensor shape: torch.Size([130, 768])
+17:45:26  DEBUG     [train] 571 saved tensor shape: torch.Size([38, 768])
+17:45:32  DEBUG     [train] 572 saved tensor shape: torch.Size([149, 768])
+17:45:35  DEBUG     [train] 573 saved tensor shape: torch.Size([89, 768])
+17:45:41  DEBUG     [train] 575 saved tensor shape: torch.Size([160, 768])
+17:45:45  DEBUG     [train] 577 saved tensor shape: torch.Size([112, 768])
+17:45:46  DEBUG     [train] 579 saved tensor shape: torch.Size([21, 768])
+17:45:48  DEBUG     [train] 58 saved tensor shape: torch.Size([12, 768])
+17:45:54  DEBUG     [train] 580 saved tensor shape: torch.Size([179, 768])
+17:45:57  DEBUG     [train] 582 saved tensor shape: torch.Size([68, 768])
+17:45:59  DEBUG     [train] 583 saved tensor shape: torch.Size([41, 768])
+17:46:00  DEBUG     [train] 584 saved tensor shape: torch.Size([18, 768])
+17:46:05  DEBUG     [train] 586 saved tensor shape: torch.Size([159, 768])
+17:46:17  DEBUG     [train] 588 saved tensor shape: torch.Size([516, 768])
+17:46:18  DEBUG     [train] 59 saved tensor shape: torch.Size([12, 768])
+17:46:20  DEBUG     [train] 590 saved tensor shape: torch.Size([32, 768])
+17:46:23  DEBUG     [train] 591 saved tensor shape: torch.Size([63, 768])
+17:46:24  DEBUG     [train] 592 saved tensor shape: torch.Size([25, 768])
+17:46:28  DEBUG     [train] 593 saved tensor shape: torch.Size([119, 768])
+17:46:29  DEBUG     [train] 595 saved tensor shape: torch.Size([16, 768])
+17:46:31  DEBUG     [train] 596 saved tensor shape: torch.Size([61, 768])
+17:46:36  DEBUG     [train] 597 saved tensor shape: torch.Size([143, 768])
+17:46:37  DEBUG     [train] 598 saved tensor shape: torch.Size([26, 768])
+17:46:38  DEBUG     [train] 599 saved tensor shape: torch.Size([12, 768])
+17:46:40  DEBUG     [train] 60 saved tensor shape: torch.Size([21, 768])
+17:46:41  DEBUG     [train] 600 saved tensor shape: torch.Size([40, 768])
+17:46:43  DEBUG     [train] 601 saved tensor shape: torch.Size([46, 768])
+17:46:53  DEBUG     [train] 602 saved tensor shape: torch.Size([443, 768])
+17:46:56  DEBUG     [train] 605 saved tensor shape: torch.Size([76, 768])
+17:46:57  DEBUG     [train] 606 saved tensor shape: torch.Size([15, 768])
+17:46:58  DEBUG     [train] 607 saved tensor shape: torch.Size([19, 768])
+17:47:07  DEBUG     [train] 608 saved tensor shape: torch.Size([403, 768])
+17:47:08  DEBUG     [train] 610 saved tensor shape: torch.Size([25, 768])
+17:47:09  DEBUG     [train] 611 saved tensor shape: torch.Size([14, 768])
+17:47:14  DEBUG     [train] 612 saved tensor shape: torch.Size([128, 768])
+17:47:15  DEBUG     [train] 615 saved tensor shape: torch.Size([23, 768])
+17:47:17  DEBUG     [train] 616 saved tensor shape: torch.Size([33, 768])
+17:47:18  DEBUG     [train] 618 saved tensor shape: torch.Size([18, 768])
+17:47:20  DEBUG     [train] 619 saved tensor shape: torch.Size([34, 768])
+17:47:23  DEBUG     [train] 620 saved tensor shape: torch.Size([120, 768])
+17:47:25  DEBUG     [train] 621 saved tensor shape: torch.Size([28, 768])
+17:47:26  DEBUG     [train] 624 saved tensor shape: torch.Size([21, 768])
+17:47:29  DEBUG     [train] 627 saved tensor shape: torch.Size([62, 768])
+17:47:32  DEBUG     [train] 630 saved tensor shape: torch.Size([107, 768])
+17:47:35  DEBUG     [train] 631 saved tensor shape: torch.Size([63, 768])
+17:47:37  DEBUG     [train] 633 saved tensor shape: torch.Size([36, 768])
+17:47:38  DEBUG     [train] 634 saved tensor shape: torch.Size([14, 768])
+17:47:43  DEBUG     [train] 635 saved tensor shape: torch.Size([148, 768])
+17:47:45  DEBUG     [train] 636 saved tensor shape: torch.Size([19, 768])
+17:47:49  DEBUG     [train] 638 saved tensor shape: torch.Size([124, 768])
+17:47:55  DEBUG     [train] 64 saved tensor shape: torch.Size([157, 768])
+17:48:00  DEBUG     [train] 640 saved tensor shape: torch.Size([176, 768])
+17:48:02  DEBUG     [train] 641 saved tensor shape: torch.Size([27, 768])
+17:48:04  DEBUG     [train] 642 saved tensor shape: torch.Size([37, 768])
+17:48:08  DEBUG     [train] 645 saved tensor shape: torch.Size([136, 768])
+17:48:13  DEBUG     [train] 646 saved tensor shape: torch.Size([107, 768])
+17:48:19  DEBUG     [train] 647 saved tensor shape: torch.Size([213, 768])
+17:48:21  DEBUG     [train] 648 saved tensor shape: torch.Size([38, 768])
+17:48:22  DEBUG     [train] 649 saved tensor shape: torch.Size([31, 768])
+17:48:24  DEBUG     [train] 650 saved tensor shape: torch.Size([31, 768])
+17:48:26  DEBUG     [train] 652 saved tensor shape: torch.Size([42, 768])
+17:48:27  DEBUG     [train] 653 saved tensor shape: torch.Size([14, 768])
+17:48:32  DEBUG     [train] 654 saved tensor shape: torch.Size([162, 768])
+17:48:34  DEBUG     [train] 655 saved tensor shape: torch.Size([63, 768])
+17:48:44  DEBUG     [train] 656 saved tensor shape: torch.Size([369, 768])
+17:48:48  DEBUG     [train] 658 saved tensor shape: torch.Size([114, 768])
+17:48:49  DEBUG     [train] 659 saved tensor shape: torch.Size([23, 768])
+17:48:51  DEBUG     [train] 661 saved tensor shape: torch.Size([30, 768])
+17:48:52  DEBUG     [train] 662 saved tensor shape: torch.Size([32, 768])
+17:48:55  DEBUG     [train] 664 saved tensor shape: torch.Size([75, 768])
+17:48:57  DEBUG     [train] 665 saved tensor shape: torch.Size([42, 768])
+17:49:21  DEBUG     [train] 668 saved tensor shape: torch.Size([1347, 768])
+17:49:22  DEBUG     [train] 670 saved tensor shape: torch.Size([14, 768])
+17:49:24  DEBUG     [train] 671 saved tensor shape: torch.Size([34, 768])
+17:49:25  DEBUG     [train] 672 saved tensor shape: torch.Size([24, 768])
+17:49:27  DEBUG     [train] 673 saved tensor shape: torch.Size([21, 768])
+17:49:39  DEBUG     [train] 674 saved tensor shape: torch.Size([524, 768])
+17:49:42  DEBUG     [train] 675 saved tensor shape: torch.Size([102, 768])
+17:49:46  DEBUG     [train] 678 saved tensor shape: torch.Size([115, 768])
+17:49:49  DEBUG     [train] 682 saved tensor shape: torch.Size([118, 768])
+17:49:51  DEBUG     [train] 686 saved tensor shape: torch.Size([12, 768])
+17:49:52  DEBUG     [train] 69 saved tensor shape: torch.Size([18, 768])
+17:49:54  DEBUG     [train] 690 saved tensor shape: torch.Size([47, 768])
+17:49:56  DEBUG     [train] 691 saved tensor shape: torch.Size([57, 768])
+17:49:57  DEBUG     [train] 692 saved tensor shape: torch.Size([12, 768])
+17:49:58  DEBUG     [train] 694 saved tensor shape: torch.Size([23, 768])
+17:50:00  DEBUG     [train] 696 saved tensor shape: torch.Size([29, 768])
+17:50:01  DEBUG     [train] 697 saved tensor shape: torch.Size([18, 768])
+17:50:02  DEBUG     [train] 7 saved tensor shape: torch.Size([16, 768])
+17:50:05  DEBUG     [train] 70 saved tensor shape: torch.Size([60, 768])
+17:50:06  DEBUG     [train] 700 saved tensor shape: torch.Size([16, 768])
+17:50:07  DEBUG     [train] 701 saved tensor shape: torch.Size([22, 768])
+17:50:09  DEBUG     [train] 702 saved tensor shape: torch.Size([33, 768])
+17:50:10  DEBUG     [train] 705 saved tensor shape: torch.Size([20, 768])
+17:50:14  DEBUG     [train] 707 saved tensor shape: torch.Size([114, 768])
+17:50:15  DEBUG     [train] 708 saved tensor shape: torch.Size([10, 768])
+17:50:16  DEBUG     [train] 709 saved tensor shape: torch.Size([9, 768])
+17:50:17  DEBUG     [train] 71 saved tensor shape: torch.Size([13, 768])
+17:50:19  DEBUG     [train] 710 saved tensor shape: torch.Size([27, 768])
+17:50:20  DEBUG     [train] 711 saved tensor shape: torch.Size([21, 768])
+17:50:27  DEBUG     [train] 713 saved tensor shape: torch.Size([212, 768])
+17:50:29  DEBUG     [train] 715 saved tensor shape: torch.Size([40, 768])
+17:50:30  DEBUG     [train] 717 saved tensor shape: torch.Size([15, 768])
+17:50:44  DEBUG     [train] 719 saved tensor shape: torch.Size([681, 768])
+17:50:45  DEBUG     [train] 72 saved tensor shape: torch.Size([28, 768])
+17:50:47  DEBUG     [train] 720 saved tensor shape: torch.Size([14, 768])
+17:50:49  DEBUG     [train] 721 saved tensor shape: torch.Size([75, 768])
+17:50:51  DEBUG     [train] 724 saved tensor shape: torch.Size([23, 768])
+17:50:52  DEBUG     [train] 725 saved tensor shape: torch.Size([16, 768])
+17:50:53  DEBUG     [train] 727 saved tensor shape: torch.Size([23, 768])
+17:50:55  DEBUG     [train] 728 saved tensor shape: torch.Size([22, 768])
+17:51:39  DEBUG     [train] 729 saved tensor shape: torch.Size([2913, 768])
+17:51:41  DEBUG     [train] 730 saved tensor shape: torch.Size([27, 768])
+17:51:42  DEBUG     [train] 731 saved tensor shape: torch.Size([22, 768])
+17:51:43  DEBUG     [train] 732 saved tensor shape: torch.Size([5, 768])
+17:51:45  DEBUG     [train] 734 saved tensor shape: torch.Size([48, 768])
+17:51:47  DEBUG     [train] 738 saved tensor shape: torch.Size([27, 768])
+17:51:53  DEBUG     [train] 739 saved tensor shape: torch.Size([210, 768])
+17:51:55  DEBUG     [train] 74 saved tensor shape: torch.Size([51, 768])
+17:51:56  DEBUG     [train] 740 saved tensor shape: torch.Size([14, 768])
+17:51:58  DEBUG     [train] 742 saved tensor shape: torch.Size([24, 768])
+17:51:59  DEBUG     [train] 743 saved tensor shape: torch.Size([20, 768])
+17:52:06  DEBUG     [train] 747 saved tensor shape: torch.Size([227, 768])
+17:52:07  DEBUG     [train] 749 saved tensor shape: torch.Size([24, 768])
+17:52:14  DEBUG     [train] 75 saved tensor shape: torch.Size([195, 768])
+17:52:16  DEBUG     [train] 752 saved tensor shape: torch.Size([66, 768])
+17:52:18  DEBUG     [train] 753 saved tensor shape: torch.Size([19, 768])
+17:52:20  DEBUG     [train] 754 saved tensor shape: torch.Size([76, 768])
+17:52:21  DEBUG     [train] 756 saved tensor shape: torch.Size([11, 768])
+17:52:24  DEBUG     [train] 758 saved tensor shape: torch.Size([51, 768])
+17:52:29  DEBUG     [train] 759 saved tensor shape: torch.Size([172, 768])
+17:52:30  DEBUG     [train] 760 saved tensor shape: torch.Size([10, 768])
+17:52:35  DEBUG     [train] 761 saved tensor shape: torch.Size([176, 768])
+17:52:37  DEBUG     [train] 764 saved tensor shape: torch.Size([50, 768])
+17:52:39  DEBUG     [train] 765 saved tensor shape: torch.Size([50, 768])
+17:52:40  DEBUG     [train] 766 saved tensor shape: torch.Size([12, 768])
+17:52:41  DEBUG     [train] 767 saved tensor shape: torch.Size([22, 768])
+17:52:43  DEBUG     [train] 768 saved tensor shape: torch.Size([38, 768])
+17:52:45  DEBUG     [train] 771 saved tensor shape: torch.Size([32, 768])
+17:52:46  DEBUG     [train] 772 saved tensor shape: torch.Size([34, 768])
+17:52:48  DEBUG     [train] 773 saved tensor shape: torch.Size([24, 768])
+17:52:50  DEBUG     [train] 774 saved tensor shape: torch.Size([36, 768])
+17:52:52  DEBUG     [train] 779 saved tensor shape: torch.Size([53, 768])
+17:52:53  DEBUG     [train] 780 saved tensor shape: torch.Size([14, 768])
+17:52:58  DEBUG     [train] 782 saved tensor shape: torch.Size([160, 768])
+17:53:01  DEBUG     [train] 785 saved tensor shape: torch.Size([77, 768])
+17:53:03  DEBUG     [train] 786 saved tensor shape: torch.Size([52, 768])
+17:53:04  DEBUG     [train] 787 saved tensor shape: torch.Size([33, 768])
+17:53:08  DEBUG     [train] 79 saved tensor shape: torch.Size([110, 768])
+17:53:09  DEBUG     [train] 790 saved tensor shape: torch.Size([24, 768])
+17:53:10  DEBUG     [train] 791 saved tensor shape: torch.Size([10, 768])
+17:53:13  DEBUG     [train] 792 saved tensor shape: torch.Size([61, 768])
+17:53:14  DEBUG     [train] 795 saved tensor shape: torch.Size([10, 768])
+17:53:15  DEBUG     [train] 796 saved tensor shape: torch.Size([18, 768])
+17:53:16  DEBUG     [train] 80 saved tensor shape: torch.Size([16, 768])
+17:53:18  DEBUG     [train] 801 saved tensor shape: torch.Size([35, 768])
+17:53:20  DEBUG     [train] 802 saved tensor shape: torch.Size([59, 768])
+17:53:22  DEBUG     [train] 807 saved tensor shape: torch.Size([28, 768])
+17:53:23  DEBUG     [train] 808 saved tensor shape: torch.Size([20, 768])
+17:53:26  DEBUG     [train] 811 saved tensor shape: torch.Size([52, 768])
+17:53:38  DEBUG     [train] 812 saved tensor shape: torch.Size([570, 768])
+17:53:40  DEBUG     [train] 815 saved tensor shape: torch.Size([29, 768])
+17:53:48  DEBUG     [train] 816 saved tensor shape: torch.Size([336, 768])
+17:53:51  DEBUG     [train] 818 saved tensor shape: torch.Size([69, 768])
+17:53:52  DEBUG     [train] 820 saved tensor shape: torch.Size([28, 768])
+17:53:53  DEBUG     [train] 823 saved tensor shape: torch.Size([16, 768])
+17:53:55  DEBUG     [train] 825 saved tensor shape: torch.Size([34, 768])
+17:53:57  DEBUG     [train] 826 saved tensor shape: torch.Size([49, 768])
+17:53:58  DEBUG     [train] 827 saved tensor shape: torch.Size([20, 768])
+17:54:00  DEBUG     [train] 828 saved tensor shape: torch.Size([54, 768])
+17:54:02  DEBUG     [train] 829 saved tensor shape: torch.Size([23, 768])
+17:54:04  DEBUG     [train] 833 saved tensor shape: torch.Size([57, 768])
+17:54:06  DEBUG     [train] 835 saved tensor shape: torch.Size([40, 768])
+17:54:07  DEBUG     [train] 836 saved tensor shape: torch.Size([12, 768])
+17:54:09  DEBUG     [train] 838 saved tensor shape: torch.Size([53, 768])
+17:54:12  DEBUG     [train] 840 saved tensor shape: torch.Size([85, 768])
+17:54:14  DEBUG     [train] 841 saved tensor shape: torch.Size([71, 768])
+17:54:16  DEBUG     [train] 842 saved tensor shape: torch.Size([32, 768])
+17:54:19  DEBUG     [train] 851 saved tensor shape: torch.Size([87, 768])
+17:54:21  DEBUG     [train] 853 saved tensor shape: torch.Size([66, 768])
+17:54:23  DEBUG     [train] 855 saved tensor shape: torch.Size([21, 768])
+17:54:24  DEBUG     [train] 859 saved tensor shape: torch.Size([35, 768])
+17:54:28  DEBUG     [train] 860 saved tensor shape: torch.Size([102, 768])
+17:54:33  DEBUG     [train] 863 saved tensor shape: torch.Size([137, 768])
+17:54:34  DEBUG     [train] 864 saved tensor shape: torch.Size([18, 768])
+17:54:36  DEBUG     [train] 865 saved tensor shape: torch.Size([39, 768])
+17:54:37  DEBUG     [train] 868 saved tensor shape: torch.Size([16, 768])
+17:54:40  DEBUG     [train] 869 saved tensor shape: torch.Size([81, 768])
+17:54:45  DEBUG     [train] 87 saved tensor shape: torch.Size([160, 768])
+17:54:46  DEBUG     [train] 870 saved tensor shape: torch.Size([10, 768])
+17:54:47  DEBUG     [train] 871 saved tensor shape: torch.Size([29, 768])
+17:54:48  DEBUG     [train] 873 saved tensor shape: torch.Size([9, 768])
+17:54:50  DEBUG     [train] 874 saved tensor shape: torch.Size([35, 768])
+17:54:51  DEBUG     [train] 876 saved tensor shape: torch.Size([17, 768])
+17:54:53  DEBUG     [train] 877 saved tensor shape: torch.Size([27, 768])
+17:54:59  DEBUG     [train] 878 saved tensor shape: torch.Size([208, 768])
+17:55:00  DEBUG     [train] 879 saved tensor shape: torch.Size([13, 768])
+17:55:03  DEBUG     [train] 88 saved tensor shape: torch.Size([73, 768])
+17:55:06  DEBUG     [train] 880 saved tensor shape: torch.Size([93, 768])
+17:55:11  DEBUG     [train] 881 saved tensor shape: torch.Size([127, 768])
+17:55:12  DEBUG     [train] 882 saved tensor shape: torch.Size([24, 768])
+17:55:14  DEBUG     [train] 885 saved tensor shape: torch.Size([37, 768])
+17:55:16  DEBUG     [train] 887 saved tensor shape: torch.Size([58, 768])
+17:55:18  DEBUG     [train] 888 saved tensor shape: torch.Size([32, 768])
+17:55:20  DEBUG     [train] 89 saved tensor shape: torch.Size([42, 768])
+17:55:25  DEBUG     [train] 890 saved tensor shape: torch.Size([163, 768])
+17:55:27  DEBUG     [train] 892 saved tensor shape: torch.Size([60, 768])
+17:55:29  DEBUG     [train] 894 saved tensor shape: torch.Size([32, 768])
+17:55:31  DEBUG     [train] 897 saved tensor shape: torch.Size([51, 768])
+17:55:33  DEBUG     [train] 899 saved tensor shape: torch.Size([31, 768])
+17:55:35  DEBUG     [train] 90 saved tensor shape: torch.Size([43, 768])
+17:55:36  DEBUG     [train] 901 saved tensor shape: torch.Size([24, 768])
+17:55:39  DEBUG     [train] 903 saved tensor shape: torch.Size([55, 768])
+17:55:44  DEBUG     [train] 904 saved tensor shape: torch.Size([153, 768])
+17:55:45  DEBUG     [train] 905 saved tensor shape: torch.Size([26, 768])
+17:55:47  DEBUG     [train] 906 saved tensor shape: torch.Size([33, 768])
+17:55:50  DEBUG     [train] 907 saved tensor shape: torch.Size([105, 768])
+17:55:52  DEBUG     [train] 908 saved tensor shape: torch.Size([20, 768])
+17:55:53  DEBUG     [train] 909 saved tensor shape: torch.Size([19, 768])
+17:55:54  DEBUG     [train] 91 saved tensor shape: torch.Size([29, 768])
+17:55:56  DEBUG     [train] 910 saved tensor shape: torch.Size([15, 768])
+17:56:01  DEBUG     [train] 911 saved tensor shape: torch.Size([154, 768])
+17:56:06  DEBUG     [train] 913 saved tensor shape: torch.Size([149, 768])
+17:56:10  DEBUG     [train] 918 saved tensor shape: torch.Size([120, 768])
+17:56:12  DEBUG     [train] 919 saved tensor shape: torch.Size([37, 768])
+17:56:13  DEBUG     [train] 920 saved tensor shape: torch.Size([10, 768])
+17:56:17  DEBUG     [train] 921 saved tensor shape: torch.Size([83, 768])
+17:56:18  DEBUG     [train] 922 saved tensor shape: torch.Size([20, 768])
+17:56:19  DEBUG     [train] 923 saved tensor shape: torch.Size([35, 768])
+17:56:27  DEBUG     [train] 925 saved tensor shape: torch.Size([197, 768])
+17:56:29  DEBUG     [train] 926 saved tensor shape: torch.Size([57, 768])
+17:56:32  DEBUG     [train] 929 saved tensor shape: torch.Size([67, 768])
+17:56:33  DEBUG     [train] 93 saved tensor shape: torch.Size([15, 768])
+17:56:34  DEBUG     [train] 930 saved tensor shape: torch.Size([29, 768])
+17:56:36  DEBUG     [train] 932 saved tensor shape: torch.Size([29, 768])
+17:56:39  DEBUG     [train] 934 saved tensor shape: torch.Size([76, 768])
+17:56:41  DEBUG     [train] 936 saved tensor shape: torch.Size([26, 768])
+17:56:45  DEBUG     [train] 937 saved tensor shape: torch.Size([112, 768])
+17:56:46  DEBUG     [train] 94 saved tensor shape: torch.Size([22, 768])
+17:57:00  DEBUG     [train] 941 saved tensor shape: torch.Size([673, 768])
+17:57:04  DEBUG     [train] 943 saved tensor shape: torch.Size([120, 768])
+17:57:05  DEBUG     [train] 944 saved tensor shape: torch.Size([25, 768])
+17:57:07  DEBUG     [train] 946 saved tensor shape: torch.Size([41, 768])
+17:57:08  DEBUG     [train] 947 saved tensor shape: torch.Size([38, 768])
+17:57:10  DEBUG     [train] 95 saved tensor shape: torch.Size([9, 768])
+17:57:13  DEBUG     [train] 950 saved tensor shape: torch.Size([114, 768])
+17:57:15  DEBUG     [train] 952 saved tensor shape: torch.Size([27, 768])
+17:57:18  DEBUG     [train] 953 saved tensor shape: torch.Size([76, 768])
+17:57:20  DEBUG     [train] 954 saved tensor shape: torch.Size([47, 768])
+17:57:21  DEBUG     [train] 955 saved tensor shape: torch.Size([21, 768])
+17:57:23  DEBUG     [train] 956 saved tensor shape: torch.Size([61, 768])
+17:57:25  DEBUG     [train] 957 saved tensor shape: torch.Size([14, 768])
+17:57:26  DEBUG     [train] 958 saved tensor shape: torch.Size([25, 768])
+17:57:27  DEBUG     [train] 959 saved tensor shape: torch.Size([16, 768])
+17:57:30  DEBUG     [train] 960 saved tensor shape: torch.Size([95, 768])
+17:57:36  DEBUG     [train] 963 saved tensor shape: torch.Size([183, 768])
+17:57:43  DEBUG     [train] 964 saved tensor shape: torch.Size([230, 768])
+17:57:48  DEBUG     [train] 969 saved tensor shape: torch.Size([141, 768])
+17:57:50  DEBUG     [train] 97 saved tensor shape: torch.Size([23, 768])
+17:57:54  DEBUG     [train] 973 saved tensor shape: torch.Size([138, 768])
+17:57:57  DEBUG     [train] 975 saved tensor shape: torch.Size([78, 768])
+17:58:00  DEBUG     [train] 976 saved tensor shape: torch.Size([69, 768])
+17:58:01  DEBUG     [train] 977 saved tensor shape: torch.Size([36, 768])
+17:58:04  DEBUG     [train] 979 saved tensor shape: torch.Size([69, 768])
+17:58:05  DEBUG     [train] 980 saved tensor shape: torch.Size([25, 768])
+17:58:07  DEBUG     [train] 985 saved tensor shape: torch.Size([57, 768])
+17:58:09  DEBUG     [train] 989 saved tensor shape: torch.Size([47, 768])
+17:58:11  DEBUG     [train] 99 saved tensor shape: torch.Size([29, 768])
+17:58:15  DEBUG     [train] 991 saved tensor shape: torch.Size([142, 768])
+17:58:17  DEBUG     [train] 993 saved tensor shape: torch.Size([46, 768])
+17:58:18  DEBUG     [train] 994 saved tensor shape: torch.Size([19, 768])
+17:58:23  DEBUG     [train] 996 saved tensor shape: torch.Size([141, 768])
+17:58:24  DEBUG     [train] 998 saved tensor shape: torch.Size([9, 768])
+17:58:32  DEBUG     [train] 999 saved tensor shape: torch.Size([203, 768])
+17:58:32  INFO      [val] Found 210 patients in /home/cgntlab5/bcnb/BCNB dataset/outputs/patches/val
+17:58:41  DEBUG     [val] 1006 saved tensor shape: torch.Size([382, 768])
+17:58:43  DEBUG     [val] 1011 saved tensor shape: torch.Size([62, 768])
+17:58:44  DEBUG     [val] 1014 saved tensor shape: torch.Size([26, 768])
+17:58:46  DEBUG     [val] 1018 saved tensor shape: torch.Size([35, 768])
+17:58:48  DEBUG     [val] 1021 saved tensor shape: torch.Size([55, 768])
+17:58:51  DEBUG     [val] 103 saved tensor shape: torch.Size([99, 768])
+17:58:53  DEBUG     [val] 1033 saved tensor shape: torch.Size([49, 768])
+17:58:55  DEBUG     [val] 1034 saved tensor shape: torch.Size([51, 768])
+17:58:56  DEBUG     [val] 1037 saved tensor shape: torch.Size([24, 768])
+17:58:58  DEBUG     [val] 1040 saved tensor shape: torch.Size([63, 768])
+17:58:59  DEBUG     [val] 1041 saved tensor shape: torch.Size([22, 768])
+17:59:02  DEBUG     [val] 1043 saved tensor shape: torch.Size([83, 768])
+17:59:04  DEBUG     [val] 1049 saved tensor shape: torch.Size([40, 768])
+17:59:05  DEBUG     [val] 1051 saved tensor shape: torch.Size([36, 768])
+17:59:07  DEBUG     [val] 1055 saved tensor shape: torch.Size([40, 768])
+17:59:09  DEBUG     [val] 121 saved tensor shape: torch.Size([44, 768])
+17:59:11  DEBUG     [val] 127 saved tensor shape: torch.Size([57, 768])
+17:59:12  DEBUG     [val] 128 saved tensor shape: torch.Size([23, 768])
+17:59:13  DEBUG     [val] 129 saved tensor shape: torch.Size([17, 768])
+17:59:16  DEBUG     [val] 135 saved tensor shape: torch.Size([88, 768])
+17:59:22  DEBUG     [val] 142 saved tensor shape: torch.Size([246, 768])
+17:59:24  DEBUG     [val] 147 saved tensor shape: torch.Size([24, 768])
+17:59:25  DEBUG     [val] 153 saved tensor shape: torch.Size([38, 768])
+17:59:29  DEBUG     [val] 16 saved tensor shape: torch.Size([114, 768])
+17:59:30  DEBUG     [val] 161 saved tensor shape: torch.Size([19, 768])
+17:59:32  DEBUG     [val] 164 saved tensor shape: torch.Size([31, 768])
+17:59:33  DEBUG     [val] 171 saved tensor shape: torch.Size([40, 768])
+17:59:34  DEBUG     [val] 18 saved tensor shape: torch.Size([21, 768])
+17:59:36  DEBUG     [val] 181 saved tensor shape: torch.Size([56, 768])
+17:59:38  DEBUG     [val] 186 saved tensor shape: torch.Size([23, 768])
+17:59:39  DEBUG     [val] 187 saved tensor shape: torch.Size([10, 768])
+17:59:40  DEBUG     [val] 2 saved tensor shape: torch.Size([15, 768])
+17:59:41  DEBUG     [val] 200 saved tensor shape: torch.Size([22, 768])
+17:59:43  DEBUG     [val] 207 saved tensor shape: torch.Size([31, 768])
+17:59:46  DEBUG     [val] 209 saved tensor shape: torch.Size([101, 768])
+17:59:47  DEBUG     [val] 215 saved tensor shape: torch.Size([21, 768])
+17:59:53  DEBUG     [val] 220 saved tensor shape: torch.Size([249, 768])
+17:59:55  DEBUG     [val] 225 saved tensor shape: torch.Size([10, 768])
+17:59:56  DEBUG     [val] 229 saved tensor shape: torch.Size([18, 768])
+17:59:58  DEBUG     [val] 232 saved tensor shape: torch.Size([69, 768])
+17:59:59  DEBUG     [val] 234 saved tensor shape: torch.Size([20, 768])
+18:00:01  DEBUG     [val] 237 saved tensor shape: torch.Size([39, 768])
+18:00:03  DEBUG     [val] 238 saved tensor shape: torch.Size([30, 768])
+18:00:04  DEBUG     [val] 242 saved tensor shape: torch.Size([27, 768])
+18:00:05  DEBUG     [val] 244 saved tensor shape: torch.Size([12, 768])
+18:00:07  DEBUG     [val] 25 saved tensor shape: torch.Size([38, 768])
+18:00:08  DEBUG     [val] 251 saved tensor shape: torch.Size([31, 768])
+18:00:09  DEBUG     [val] 253 saved tensor shape: torch.Size([22, 768])
+18:00:10  DEBUG     [val] 256 saved tensor shape: torch.Size([16, 768])
+18:00:12  DEBUG     [val] 267 saved tensor shape: torch.Size([32, 768])
+18:00:13  DEBUG     [val] 272 saved tensor shape: torch.Size([24, 768])
+18:00:15  DEBUG     [val] 291 saved tensor shape: torch.Size([22, 768])
+18:00:16  DEBUG     [val] 296 saved tensor shape: torch.Size([34, 768])
+18:00:23  DEBUG     [val] 303 saved tensor shape: torch.Size([289, 768])
+18:00:24  DEBUG     [val] 306 saved tensor shape: torch.Size([28, 768])
+18:00:29  DEBUG     [val] 31 saved tensor shape: torch.Size([150, 768])
+18:00:32  DEBUG     [val] 311 saved tensor shape: torch.Size([116, 768])
+18:00:34  DEBUG     [val] 315 saved tensor shape: torch.Size([40, 768])
+18:00:35  DEBUG     [val] 321 saved tensor shape: torch.Size([15, 768])
+18:00:38  DEBUG     [val] 326 saved tensor shape: torch.Size([63, 768])
+18:00:39  DEBUG     [val] 331 saved tensor shape: torch.Size([30, 768])
+18:00:41  DEBUG     [val] 335 saved tensor shape: torch.Size([27, 768])
+18:00:43  DEBUG     [val] 337 saved tensor shape: torch.Size([56, 768])
+18:00:45  DEBUG     [val] 338 saved tensor shape: torch.Size([59, 768])
+18:00:46  DEBUG     [val] 354 saved tensor shape: torch.Size([16, 768])
+18:00:50  DEBUG     [val] 36 saved tensor shape: torch.Size([109, 768])
+18:00:51  DEBUG     [val] 360 saved tensor shape: torch.Size([25, 768])
+18:00:52  DEBUG     [val] 375 saved tensor shape: torch.Size([24, 768])
+18:00:53  DEBUG     [val] 380 saved tensor shape: torch.Size([27, 768])
+18:00:55  DEBUG     [val] 381 saved tensor shape: torch.Size([19, 768])
+18:00:56  DEBUG     [val] 386 saved tensor shape: torch.Size([25, 768])
+18:00:57  DEBUG     [val] 388 saved tensor shape: torch.Size([15, 768])
+18:00:59  DEBUG     [val] 390 saved tensor shape: torch.Size([33, 768])
+18:01:00  DEBUG     [val] 396 saved tensor shape: torch.Size([14, 768])
+18:01:01  DEBUG     [val] 4 saved tensor shape: torch.Size([24, 768])
+18:01:02  DEBUG     [val] 402 saved tensor shape: torch.Size([14, 768])
+18:01:05  DEBUG     [val] 410 saved tensor shape: torch.Size([99, 768])
+18:01:06  DEBUG     [val] 413 saved tensor shape: torch.Size([22, 768])
+18:01:08  DEBUG     [val] 417 saved tensor shape: torch.Size([12, 768])
+18:01:09  DEBUG     [val] 418 saved tensor shape: torch.Size([32, 768])
+18:01:11  DEBUG     [val] 426 saved tensor shape: torch.Size([61, 768])
+18:01:13  DEBUG     [val] 43 saved tensor shape: torch.Size([23, 768])
+18:01:17  DEBUG     [val] 44 saved tensor shape: torch.Size([171, 768])
+18:01:23  DEBUG     [val] 442 saved tensor shape: torch.Size([222, 768])
+18:01:24  DEBUG     [val] 457 saved tensor shape: torch.Size([23, 768])
+18:01:25  DEBUG     [val] 46 saved tensor shape: torch.Size([20, 768])
+18:01:27  DEBUG     [val] 461 saved tensor shape: torch.Size([22, 768])
+18:01:28  DEBUG     [val] 466 saved tensor shape: torch.Size([35, 768])
+18:01:29  DEBUG     [val] 472 saved tensor shape: torch.Size([11, 768])
+18:01:31  DEBUG     [val] 486 saved tensor shape: torch.Size([24, 768])
+18:01:32  DEBUG     [val] 487 saved tensor shape: torch.Size([46, 768])
+18:01:35  DEBUG     [val] 5 saved tensor shape: torch.Size([68, 768])
+18:01:36  DEBUG     [val] 504 saved tensor shape: torch.Size([20, 768])
+18:01:38  DEBUG     [val] 515 saved tensor shape: torch.Size([32, 768])
+18:01:39  DEBUG     [val] 517 saved tensor shape: torch.Size([13, 768])
+18:01:40  DEBUG     [val] 518 saved tensor shape: torch.Size([32, 768])
+18:01:41  DEBUG     [val] 523 saved tensor shape: torch.Size([19, 768])
+18:01:42  DEBUG     [val] 53 saved tensor shape: torch.Size([18, 768])
+18:01:47  DEBUG     [val] 539 saved tensor shape: torch.Size([149, 768])
+18:01:48  DEBUG     [val] 540 saved tensor shape: torch.Size([12, 768])
+18:01:50  DEBUG     [val] 546 saved tensor shape: torch.Size([37, 768])
+18:01:57  DEBUG     [val] 557 saved tensor shape: torch.Size([353, 768])
+18:01:59  DEBUG     [val] 574 saved tensor shape: torch.Size([20, 768])
+18:02:00  DEBUG     [val] 585 saved tensor shape: torch.Size([48, 768])
+18:02:02  DEBUG     [val] 587 saved tensor shape: torch.Size([24, 768])
+18:02:04  DEBUG     [val] 589 saved tensor shape: torch.Size([53, 768])
+18:02:08  DEBUG     [val] 594 saved tensor shape: torch.Size([140, 768])
+18:02:09  DEBUG     [val] 603 saved tensor shape: torch.Size([24, 768])
+18:02:12  DEBUG     [val] 604 saved tensor shape: torch.Size([110, 768])
+18:02:14  DEBUG     [val] 609 saved tensor shape: torch.Size([21, 768])
+18:02:17  DEBUG     [val] 613 saved tensor shape: torch.Size([135, 768])
+18:02:19  DEBUG     [val] 617 saved tensor shape: torch.Size([59, 768])
+18:02:41  DEBUG     [val] 62 saved tensor shape: torch.Size([1622, 768])
+18:02:44  DEBUG     [val] 622 saved tensor shape: torch.Size([61, 768])
+18:02:47  DEBUG     [val] 623 saved tensor shape: torch.Size([101, 768])
+18:02:49  DEBUG     [val] 626 saved tensor shape: torch.Size([62, 768])
+18:02:53  DEBUG     [val] 628 saved tensor shape: torch.Size([137, 768])
+18:02:59  DEBUG     [val] 629 saved tensor shape: torch.Size([245, 768])
+18:03:01  DEBUG     [val] 63 saved tensor shape: torch.Size([12, 768])
+18:03:03  DEBUG     [val] 637 saved tensor shape: torch.Size([52, 768])
+18:03:06  DEBUG     [val] 639 saved tensor shape: torch.Size([108, 768])
+18:03:08  DEBUG     [val] 643 saved tensor shape: torch.Size([54, 768])
+18:03:11  DEBUG     [val] 65 saved tensor shape: torch.Size([69, 768])
+18:03:12  DEBUG     [val] 651 saved tensor shape: torch.Size([20, 768])
+18:03:14  DEBUG     [val] 657 saved tensor shape: torch.Size([37, 768])
+18:03:15  DEBUG     [val] 66 saved tensor shape: torch.Size([10, 768])
+18:03:19  DEBUG     [val] 660 saved tensor shape: torch.Size([157, 768])
+18:03:20  DEBUG     [val] 666 saved tensor shape: torch.Size([12, 768])
+18:03:21  DEBUG     [val] 667 saved tensor shape: torch.Size([18, 768])
+18:03:25  DEBUG     [val] 676 saved tensor shape: torch.Size([128, 768])
+18:03:27  DEBUG     [val] 680 saved tensor shape: torch.Size([46, 768])
+18:03:28  DEBUG     [val] 681 saved tensor shape: torch.Size([19, 768])
+18:03:32  DEBUG     [val] 683 saved tensor shape: torch.Size([130, 768])
+18:03:36  DEBUG     [val] 684 saved tensor shape: torch.Size([157, 768])
+18:03:38  DEBUG     [val] 685 saved tensor shape: torch.Size([14, 768])
+18:03:39  DEBUG     [val] 687 saved tensor shape: torch.Size([9, 768])
+18:03:41  DEBUG     [val] 695 saved tensor shape: torch.Size([79, 768])
+18:03:42  DEBUG     [val] 703 saved tensor shape: torch.Size([15, 768])
+18:03:43  DEBUG     [val] 712 saved tensor shape: torch.Size([22, 768])
+18:03:45  DEBUG     [val] 714 saved tensor shape: torch.Size([23, 768])
+18:03:51  DEBUG     [val] 718 saved tensor shape: torch.Size([263, 768])
+18:03:53  DEBUG     [val] 722 saved tensor shape: torch.Size([58, 768])
+18:03:55  DEBUG     [val] 723 saved tensor shape: torch.Size([29, 768])
+18:03:58  DEBUG     [val] 736 saved tensor shape: torch.Size([124, 768])
+18:04:00  DEBUG     [val] 741 saved tensor shape: torch.Size([25, 768])
+18:04:07  DEBUG     [val] 744 saved tensor shape: torch.Size([385, 768])
+18:04:10  DEBUG     [val] 746 saved tensor shape: torch.Size([98, 768])
+18:04:12  DEBUG     [val] 748 saved tensor shape: torch.Size([23, 768])
+18:04:13  DEBUG     [val] 750 saved tensor shape: torch.Size([21, 768])
+18:04:20  DEBUG     [val] 751 saved tensor shape: torch.Size([208, 768])
+18:04:21  DEBUG     [val] 76 saved tensor shape: torch.Size([22, 768])
+18:04:23  DEBUG     [val] 762 saved tensor shape: torch.Size([62, 768])
+18:04:25  DEBUG     [val] 763 saved tensor shape: torch.Size([17, 768])
+18:04:26  DEBUG     [val] 77 saved tensor shape: torch.Size([16, 768])
+18:04:27  DEBUG     [val] 770 saved tensor shape: torch.Size([33, 768])
+18:04:33  DEBUG     [val] 775 saved tensor shape: torch.Size([216, 768])
+18:04:35  DEBUG     [val] 778 saved tensor shape: torch.Size([27, 768])
+18:04:36  DEBUG     [val] 78 saved tensor shape: torch.Size([40, 768])
+18:04:38  DEBUG     [val] 789 saved tensor shape: torch.Size([16, 768])
+18:04:39  DEBUG     [val] 797 saved tensor shape: torch.Size([41, 768])
+18:04:41  DEBUG     [val] 799 saved tensor shape: torch.Size([32, 768])
+18:04:42  DEBUG     [val] 8 saved tensor shape: torch.Size([19, 768])
+18:04:45  DEBUG     [val] 800 saved tensor shape: torch.Size([86, 768])
+18:04:53  DEBUG     [val] 804 saved tensor shape: torch.Size([317, 768])
+18:04:57  DEBUG     [val] 81 saved tensor shape: torch.Size([175, 768])
+18:04:59  DEBUG     [val] 813 saved tensor shape: torch.Size([33, 768])
+18:05:01  DEBUG     [val] 814 saved tensor shape: torch.Size([43, 768])
+18:05:04  DEBUG     [val] 821 saved tensor shape: torch.Size([59, 768])
+18:05:05  DEBUG     [val] 822 saved tensor shape: torch.Size([24, 768])
+18:05:06  DEBUG     [val] 832 saved tensor shape: torch.Size([20, 768])
+18:05:10  DEBUG     [val] 834 saved tensor shape: torch.Size([155, 768])
+18:05:12  DEBUG     [val] 84 saved tensor shape: torch.Size([50, 768])
+18:05:16  DEBUG     [val] 843 saved tensor shape: torch.Size([124, 768])
+18:05:18  DEBUG     [val] 847 saved tensor shape: torch.Size([50, 768])
+18:05:19  DEBUG     [val] 848 saved tensor shape: torch.Size([31, 768])
+18:05:21  DEBUG     [val] 85 saved tensor shape: torch.Size([49, 768])
+18:05:23  DEBUG     [val] 856 saved tensor shape: torch.Size([74, 768])
+18:05:24  DEBUG     [val] 857 saved tensor shape: torch.Size([11, 768])
+18:05:27  DEBUG     [val] 861 saved tensor shape: torch.Size([72, 768])
+18:05:28  DEBUG     [val] 862 saved tensor shape: torch.Size([38, 768])
+18:05:30  DEBUG     [val] 866 saved tensor shape: torch.Size([25, 768])
+18:05:31  DEBUG     [val] 883 saved tensor shape: torch.Size([26, 768])
+18:05:34  DEBUG     [val] 884 saved tensor shape: torch.Size([66, 768])
+18:05:35  DEBUG     [val] 889 saved tensor shape: torch.Size([12, 768])
+18:05:37  DEBUG     [val] 891 saved tensor shape: torch.Size([67, 768])
+18:05:39  DEBUG     [val] 895 saved tensor shape: torch.Size([59, 768])
+18:05:40  DEBUG     [val] 896 saved tensor shape: torch.Size([21, 768])
+18:05:42  DEBUG     [val] 900 saved tensor shape: torch.Size([42, 768])
+18:05:45  DEBUG     [val] 912 saved tensor shape: torch.Size([79, 768])
+18:05:47  DEBUG     [val] 914 saved tensor shape: torch.Size([51, 768])
+18:05:48  DEBUG     [val] 915 saved tensor shape: torch.Size([33, 768])
+18:05:51  DEBUG     [val] 917 saved tensor shape: torch.Size([52, 768])
+18:05:52  DEBUG     [val] 92 saved tensor shape: torch.Size([48, 768])
+18:05:54  DEBUG     [val] 928 saved tensor shape: torch.Size([40, 768])
+18:05:56  DEBUG     [val] 931 saved tensor shape: torch.Size([34, 768])
+18:05:57  DEBUG     [val] 933 saved tensor shape: torch.Size([38, 768])
+18:05:58  DEBUG     [val] 938 saved tensor shape: torch.Size([10, 768])
+18:06:00  DEBUG     [val] 939 saved tensor shape: torch.Size([39, 768])
+18:06:03  DEBUG     [val] 940 saved tensor shape: torch.Size([86, 768])
+18:06:08  DEBUG     [val] 942 saved tensor shape: torch.Size([187, 768])
+18:06:10  DEBUG     [val] 948 saved tensor shape: torch.Size([52, 768])
+18:06:13  DEBUG     [val] 951 saved tensor shape: torch.Size([105, 768])
+18:06:14  DEBUG     [val] 961 saved tensor shape: torch.Size([15, 768])
+18:06:16  DEBUG     [val] 962 saved tensor shape: torch.Size([49, 768])
+18:06:18  DEBUG     [val] 965 saved tensor shape: torch.Size([38, 768])
+18:06:22  DEBUG     [val] 967 saved tensor shape: torch.Size([146, 768])
+18:06:27  DEBUG     [val] 971 saved tensor shape: torch.Size([139, 768])
+18:06:29  DEBUG     [val] 982 saved tensor shape: torch.Size([48, 768])
+18:06:32  DEBUG     [val] 983 saved tensor shape: torch.Size([97, 768])
+18:06:35  DEBUG     [val] 988 saved tensor shape: torch.Size([90, 768])
+18:06:35  INFO      [test] Found 218 patients in /home/cgntlab5/bcnb/BCNB dataset/outputs/patches/test
+18:06:36  DEBUG     [test] 1000 saved tensor shape: torch.Size([13, 768])
+18:06:38  DEBUG     [test] 101 saved tensor shape: torch.Size([52, 768])
+18:06:39  DEBUG     [test] 1015 saved tensor shape: torch.Size([21, 768])
+18:06:40  DEBUG     [test] 102 saved tensor shape: torch.Size([17, 768])
+18:06:42  DEBUG     [test] 1026 saved tensor shape: torch.Size([26, 768])
+18:06:43  DEBUG     [test] 1027 saved tensor shape: torch.Size([30, 768])
+18:06:45  DEBUG     [test] 1028 saved tensor shape: torch.Size([27, 768])
+18:06:47  DEBUG     [test] 1030 saved tensor shape: torch.Size([47, 768])
+18:06:49  DEBUG     [test] 1031 saved tensor shape: torch.Size([47, 768])
+18:06:51  DEBUG     [test] 1032 saved tensor shape: torch.Size([56, 768])
+18:06:55  DEBUG     [test] 1038 saved tensor shape: torch.Size([112, 768])
+18:06:57  DEBUG     [test] 105 saved tensor shape: torch.Size([46, 768])
+18:06:59  DEBUG     [test] 1054 saved tensor shape: torch.Size([33, 768])
+18:07:01  DEBUG     [test] 1056 saved tensor shape: torch.Size([68, 768])
+18:07:03  DEBUG     [test] 1058 saved tensor shape: torch.Size([59, 768])
+18:07:05  DEBUG     [test] 106 saved tensor shape: torch.Size([51, 768])
+18:07:07  DEBUG     [test] 107 saved tensor shape: torch.Size([54, 768])
+18:07:08  DEBUG     [test] 108 saved tensor shape: torch.Size([20, 768])
+18:07:10  DEBUG     [test] 109 saved tensor shape: torch.Size([46, 768])
+18:07:12  DEBUG     [test] 11 saved tensor shape: torch.Size([26, 768])
+18:07:15  DEBUG     [test] 112 saved tensor shape: torch.Size([110, 768])
+18:07:17  DEBUG     [test] 115 saved tensor shape: torch.Size([18, 768])
+18:07:19  DEBUG     [test] 118 saved tensor shape: torch.Size([78, 768])
+18:07:23  DEBUG     [test] 119 saved tensor shape: torch.Size([103, 768])
+18:07:24  DEBUG     [test] 120 saved tensor shape: torch.Size([20, 768])
+18:07:26  DEBUG     [test] 131 saved tensor shape: torch.Size([28, 768])
+18:07:27  DEBUG     [test] 138 saved tensor shape: torch.Size([38, 768])
+18:07:28  DEBUG     [test] 139 saved tensor shape: torch.Size([13, 768])
+18:07:30  DEBUG     [test] 149 saved tensor shape: torch.Size([21, 768])
+18:07:31  DEBUG     [test] 151 saved tensor shape: torch.Size([32, 768])
+18:07:33  DEBUG     [test] 152 saved tensor shape: torch.Size([32, 768])
+18:07:34  DEBUG     [test] 155 saved tensor shape: torch.Size([25, 768])
+18:07:35  DEBUG     [test] 168 saved tensor shape: torch.Size([11, 768])
+18:07:38  DEBUG     [test] 175 saved tensor shape: torch.Size([97, 768])
+18:07:40  DEBUG     [test] 177 saved tensor shape: torch.Size([24, 768])
+18:07:41  DEBUG     [test] 183 saved tensor shape: torch.Size([29, 768])
+18:07:44  DEBUG     [test] 184 saved tensor shape: torch.Size([95, 768])
+18:07:46  DEBUG     [test] 190 saved tensor shape: torch.Size([24, 768])
+18:07:47  DEBUG     [test] 191 saved tensor shape: torch.Size([33, 768])
+18:07:49  DEBUG     [test] 194 saved tensor shape: torch.Size([36, 768])
+18:07:52  DEBUG     [test] 204 saved tensor shape: torch.Size([106, 768])
+18:07:54  DEBUG     [test] 208 saved tensor shape: torch.Size([45, 768])
+18:07:55  DEBUG     [test] 21 saved tensor shape: torch.Size([21, 768])
+18:07:58  DEBUG     [test] 212 saved tensor shape: torch.Size([61, 768])
+18:07:59  DEBUG     [test] 222 saved tensor shape: torch.Size([18, 768])
+18:08:00  DEBUG     [test] 223 saved tensor shape: torch.Size([23, 768])
+18:08:06  DEBUG     [test] 227 saved tensor shape: torch.Size([169, 768])
+18:08:07  DEBUG     [test] 230 saved tensor shape: torch.Size([21, 768])
+18:08:08  DEBUG     [test] 231 saved tensor shape: torch.Size([27, 768])
+18:08:10  DEBUG     [test] 233 saved tensor shape: torch.Size([26, 768])
+18:08:11  DEBUG     [test] 245 saved tensor shape: torch.Size([15, 768])
+18:08:12  DEBUG     [test] 246 saved tensor shape: torch.Size([22, 768])
+18:08:14  DEBUG     [test] 258 saved tensor shape: torch.Size([31, 768])
+18:08:15  DEBUG     [test] 259 saved tensor shape: torch.Size([20, 768])
+18:08:16  DEBUG     [test] 26 saved tensor shape: torch.Size([29, 768])
+18:08:20  DEBUG     [test] 260 saved tensor shape: torch.Size([122, 768])
+18:08:21  DEBUG     [test] 261 saved tensor shape: torch.Size([22, 768])
+18:08:24  DEBUG     [test] 268 saved tensor shape: torch.Size([62, 768])
+18:08:27  DEBUG     [test] 269 saved tensor shape: torch.Size([110, 768])
+18:08:31  DEBUG     [test] 273 saved tensor shape: torch.Size([102, 768])
+18:08:34  DEBUG     [test] 274 saved tensor shape: torch.Size([69, 768])
+18:08:35  DEBUG     [test] 286 saved tensor shape: torch.Size([34, 768])
+18:08:36  DEBUG     [test] 288 saved tensor shape: torch.Size([18, 768])
+18:08:38  DEBUG     [test] 289 saved tensor shape: torch.Size([41, 768])
+18:08:40  DEBUG     [test] 294 saved tensor shape: torch.Size([14, 768])
+18:08:41  DEBUG     [test] 299 saved tensor shape: torch.Size([25, 768])
+18:08:43  DEBUG     [test] 300 saved tensor shape: torch.Size([51, 768])
+18:08:49  DEBUG     [test] 304 saved tensor shape: torch.Size([216, 768])
+18:08:51  DEBUG     [test] 308 saved tensor shape: torch.Size([58, 768])
+18:08:53  DEBUG     [test] 318 saved tensor shape: torch.Size([25, 768])
+18:08:54  DEBUG     [test] 330 saved tensor shape: torch.Size([23, 768])
+18:08:56  DEBUG     [test] 334 saved tensor shape: torch.Size([39, 768])
+18:09:01  DEBUG     [test] 336 saved tensor shape: torch.Size([150, 768])
+18:09:03  DEBUG     [test] 344 saved tensor shape: torch.Size([81, 768])
+18:09:05  DEBUG     [test] 345 saved tensor shape: torch.Size([35, 768])
+18:09:06  DEBUG     [test] 347 saved tensor shape: torch.Size([29, 768])
+18:09:08  DEBUG     [test] 349 saved tensor shape: torch.Size([27, 768])
+18:09:09  DEBUG     [test] 351 saved tensor shape: torch.Size([25, 768])
+18:09:11  DEBUG     [test] 364 saved tensor shape: torch.Size([47, 768])
+18:09:12  DEBUG     [test] 368 saved tensor shape: torch.Size([15, 768])
+18:09:14  DEBUG     [test] 371 saved tensor shape: torch.Size([22, 768])
+18:09:16  DEBUG     [test] 382 saved tensor shape: torch.Size([78, 768])
+18:09:18  DEBUG     [test] 406 saved tensor shape: torch.Size([58, 768])
+18:09:23  DEBUG     [test] 420 saved tensor shape: torch.Size([154, 768])
+18:09:29  DEBUG     [test] 427 saved tensor shape: torch.Size([200, 768])
+18:09:31  DEBUG     [test] 428 saved tensor shape: torch.Size([63, 768])
+18:09:33  DEBUG     [test] 434 saved tensor shape: torch.Size([39, 768])
+18:09:35  DEBUG     [test] 436 saved tensor shape: torch.Size([59, 768])
+18:09:36  DEBUG     [test] 441 saved tensor shape: torch.Size([11, 768])
+18:09:38  DEBUG     [test] 447 saved tensor shape: torch.Size([19, 768])
+18:09:39  DEBUG     [test] 448 saved tensor shape: torch.Size([23, 768])
+18:09:40  DEBUG     [test] 449 saved tensor shape: torch.Size([22, 768])
+18:09:42  DEBUG     [test] 455 saved tensor shape: torch.Size([26, 768])
+18:09:43  DEBUG     [test] 460 saved tensor shape: torch.Size([31, 768])
+18:09:44  DEBUG     [test] 471 saved tensor shape: torch.Size([23, 768])
+18:09:46  DEBUG     [test] 483 saved tensor shape: torch.Size([16, 768])
+18:09:48  DEBUG     [test] 488 saved tensor shape: torch.Size([71, 768])
+18:09:51  DEBUG     [test] 489 saved tensor shape: torch.Size([83, 768])
+18:09:54  DEBUG     [test] 49 saved tensor shape: torch.Size([88, 768])
+18:09:56  DEBUG     [test] 498 saved tensor shape: torch.Size([49, 768])
+18:09:57  DEBUG     [test] 50 saved tensor shape: torch.Size([25, 768])
+18:10:02  DEBUG     [test] 500 saved tensor shape: torch.Size([175, 768])
+18:10:04  DEBUG     [test] 502 saved tensor shape: torch.Size([63, 768])
+18:10:05  DEBUG     [test] 507 saved tensor shape: torch.Size([37, 768])
+18:10:09  DEBUG     [test] 508 saved tensor shape: torch.Size([122, 768])
+18:10:10  DEBUG     [test] 510 saved tensor shape: torch.Size([18, 768])
+18:10:12  DEBUG     [test] 52 saved tensor shape: torch.Size([54, 768])
+18:10:15  DEBUG     [test] 525 saved tensor shape: torch.Size([91, 768])
+18:10:17  DEBUG     [test] 526 saved tensor shape: torch.Size([31, 768])
+18:10:18  DEBUG     [test] 528 saved tensor shape: torch.Size([19, 768])
+18:10:23  DEBUG     [test] 532 saved tensor shape: torch.Size([177, 768])
+18:10:25  DEBUG     [test] 534 saved tensor shape: torch.Size([32, 768])
+18:10:27  DEBUG     [test] 535 saved tensor shape: torch.Size([21, 768])
+18:10:28  DEBUG     [test] 536 saved tensor shape: torch.Size([27, 768])
+18:10:29  DEBUG     [test] 54 saved tensor shape: torch.Size([30, 768])
+18:10:34  DEBUG     [test] 542 saved tensor shape: torch.Size([178, 768])
+18:10:36  DEBUG     [test] 548 saved tensor shape: torch.Size([55, 768])
+18:10:38  DEBUG     [test] 555 saved tensor shape: torch.Size([29, 768])
+18:10:39  DEBUG     [test] 561 saved tensor shape: torch.Size([28, 768])
+18:10:41  DEBUG     [test] 563 saved tensor shape: torch.Size([46, 768])
+18:10:45  DEBUG     [test] 565 saved tensor shape: torch.Size([114, 768])
+18:10:48  DEBUG     [test] 566 saved tensor shape: torch.Size([76, 768])
+18:10:49  DEBUG     [test] 568 saved tensor shape: torch.Size([35, 768])
+18:10:51  DEBUG     [test] 569 saved tensor shape: torch.Size([28, 768])
+18:10:54  DEBUG     [test] 576 saved tensor shape: torch.Size([119, 768])
+18:10:56  DEBUG     [test] 578 saved tensor shape: torch.Size([31, 768])
+18:10:59  DEBUG     [test] 581 saved tensor shape: torch.Size([66, 768])
+18:11:06  DEBUG     [test] 6 saved tensor shape: torch.Size([238, 768])
+18:11:07  DEBUG     [test] 61 saved tensor shape: torch.Size([36, 768])
+18:11:08  DEBUG     [test] 614 saved tensor shape: torch.Size([12, 768])
+18:11:10  DEBUG     [test] 625 saved tensor shape: torch.Size([23, 768])
+18:11:13  DEBUG     [test] 632 saved tensor shape: torch.Size([92, 768])
+18:11:15  DEBUG     [test] 644 saved tensor shape: torch.Size([60, 768])
+18:11:17  DEBUG     [test] 663 saved tensor shape: torch.Size([27, 768])
+18:11:18  DEBUG     [test] 669 saved tensor shape: torch.Size([32, 768])
+18:11:20  DEBUG     [test] 67 saved tensor shape: torch.Size([20, 768])
+18:11:21  DEBUG     [test] 677 saved tensor shape: torch.Size([32, 768])
+18:11:23  DEBUG     [test] 679 saved tensor shape: torch.Size([66, 768])
+18:11:25  DEBUG     [test] 68 saved tensor shape: torch.Size([45, 768])
+18:11:27  DEBUG     [test] 688 saved tensor shape: torch.Size([26, 768])
+18:11:29  DEBUG     [test] 689 saved tensor shape: torch.Size([42, 768])
+18:11:30  DEBUG     [test] 693 saved tensor shape: torch.Size([15, 768])
+18:11:31  DEBUG     [test] 698 saved tensor shape: torch.Size([20, 768])
+18:11:33  DEBUG     [test] 699 saved tensor shape: torch.Size([38, 768])
+18:11:36  DEBUG     [test] 704 saved tensor shape: torch.Size([64, 768])
+18:11:38  DEBUG     [test] 706 saved tensor shape: torch.Size([68, 768])
+18:11:39  DEBUG     [test] 716 saved tensor shape: torch.Size([22, 768])
+18:11:46  DEBUG     [test] 726 saved tensor shape: torch.Size([216, 768])
+18:11:48  DEBUG     [test] 73 saved tensor shape: torch.Size([22, 768])
+18:11:49  DEBUG     [test] 733 saved tensor shape: torch.Size([21, 768])
+18:11:51  DEBUG     [test] 735 saved tensor shape: torch.Size([34, 768])
+18:11:59  DEBUG     [test] 737 saved tensor shape: torch.Size([476, 768])
+18:12:01  DEBUG     [test] 745 saved tensor shape: torch.Size([53, 768])
+18:12:02  DEBUG     [test] 755 saved tensor shape: torch.Size([36, 768])
+18:12:04  DEBUG     [test] 757 saved tensor shape: torch.Size([23, 768])
+18:12:05  DEBUG     [test] 769 saved tensor shape: torch.Size([20, 768])
+18:12:07  DEBUG     [test] 776 saved tensor shape: torch.Size([34, 768])
+18:12:08  DEBUG     [test] 777 saved tensor shape: torch.Size([25, 768])
+18:12:09  DEBUG     [test] 781 saved tensor shape: torch.Size([22, 768])
+18:12:11  DEBUG     [test] 783 saved tensor shape: torch.Size([24, 768])
+18:12:12  DEBUG     [test] 784 saved tensor shape: torch.Size([26, 768])
+18:12:13  DEBUG     [test] 788 saved tensor shape: torch.Size([10, 768])
+18:12:22  DEBUG     [test] 793 saved tensor shape: torch.Size([293, 768])
+18:12:24  DEBUG     [test] 794 saved tensor shape: torch.Size([32, 768])
+18:12:26  DEBUG     [test] 798 saved tensor shape: torch.Size([70, 768])
+18:12:27  DEBUG     [test] 803 saved tensor shape: torch.Size([12, 768])
+18:12:29  DEBUG     [test] 805 saved tensor shape: torch.Size([24, 768])
+18:12:36  DEBUG     [test] 806 saved tensor shape: torch.Size([243, 768])
+18:12:37  DEBUG     [test] 809 saved tensor shape: torch.Size([29, 768])
+18:12:39  DEBUG     [test] 810 saved tensor shape: torch.Size([14, 768])
+18:12:41  DEBUG     [test] 817 saved tensor shape: torch.Size([38, 768])
+18:12:42  DEBUG     [test] 819 saved tensor shape: torch.Size([24, 768])
+18:12:46  DEBUG     [test] 82 saved tensor shape: torch.Size([105, 768])
+18:12:47  DEBUG     [test] 824 saved tensor shape: torch.Size([38, 768])
+18:12:49  DEBUG     [test] 83 saved tensor shape: torch.Size([42, 768])
+18:12:51  DEBUG     [test] 830 saved tensor shape: torch.Size([36, 768])
+18:12:52  DEBUG     [test] 831 saved tensor shape: torch.Size([41, 768])
+18:12:54  DEBUG     [test] 837 saved tensor shape: torch.Size([18, 768])
+18:13:01  DEBUG     [test] 839 saved tensor shape: torch.Size([259, 768])
+18:13:02  DEBUG     [test] 844 saved tensor shape: torch.Size([11, 768])
+18:13:04  DEBUG     [test] 845 saved tensor shape: torch.Size([39, 768])
+18:13:06  DEBUG     [test] 846 saved tensor shape: torch.Size([44, 768])
+18:13:08  DEBUG     [test] 849 saved tensor shape: torch.Size([36, 768])
+18:13:15  DEBUG     [test] 850 saved tensor shape: torch.Size([280, 768])
+18:13:18  DEBUG     [test] 852 saved tensor shape: torch.Size([81, 768])
+18:13:19  DEBUG     [test] 854 saved tensor shape: torch.Size([20, 768])
+18:13:21  DEBUG     [test] 858 saved tensor shape: torch.Size([26, 768])
+18:13:22  DEBUG     [test] 86 saved tensor shape: torch.Size([18, 768])
+18:13:25  DEBUG     [test] 867 saved tensor shape: torch.Size([21, 768])
+18:13:27  DEBUG     [test] 872 saved tensor shape: torch.Size([15, 768])
+18:13:30  DEBUG     [test] 875 saved tensor shape: torch.Size([104, 768])
+18:13:32  DEBUG     [test] 886 saved tensor shape: torch.Size([32, 768])
+18:13:33  DEBUG     [test] 893 saved tensor shape: torch.Size([22, 768])
+18:13:34  DEBUG     [test] 898 saved tensor shape: torch.Size([9, 768])
+18:13:35  DEBUG     [test] 9 saved tensor shape: torch.Size([20, 768])
+18:13:37  DEBUG     [test] 902 saved tensor shape: torch.Size([43, 768])
+18:13:42  DEBUG     [test] 916 saved tensor shape: torch.Size([161, 768])
+18:13:45  DEBUG     [test] 924 saved tensor shape: torch.Size([66, 768])
+18:13:47  DEBUG     [test] 927 saved tensor shape: torch.Size([68, 768])
+18:13:49  DEBUG     [test] 935 saved tensor shape: torch.Size([43, 768])
+18:13:52  DEBUG     [test] 945 saved tensor shape: torch.Size([69, 768])
+18:13:53  DEBUG     [test] 949 saved tensor shape: torch.Size([21, 768])
+18:13:58  DEBUG     [test] 96 saved tensor shape: torch.Size([155, 768])
+18:14:00  DEBUG     [test] 966 saved tensor shape: torch.Size([81, 768])
+18:14:03  DEBUG     [test] 968 saved tensor shape: torch.Size([61, 768])
+18:14:06  DEBUG     [test] 970 saved tensor shape: torch.Size([98, 768])
+18:14:08  DEBUG     [test] 972 saved tensor shape: torch.Size([19, 768])
+18:14:16  DEBUG     [test] 974 saved tensor shape: torch.Size([267, 768])
+18:14:17  DEBUG     [test] 978 saved tensor shape: torch.Size([13, 768])
+18:14:24  DEBUG     [test] 98 saved tensor shape: torch.Size([278, 768])
+18:14:27  DEBUG     [test] 981 saved tensor shape: torch.Size([75, 768])
+18:14:38  DEBUG     [test] 984 saved tensor shape: torch.Size([1239, 768])
+18:14:41  DEBUG     [test] 986 saved tensor shape: torch.Size([44, 768])
+18:14:43  DEBUG     [test] 987 saved tensor shape: torch.Size([65, 768])
+18:14:45  DEBUG     [test] 990 saved tensor shape: torch.Size([78, 768])
+18:14:47  DEBUG     [test] 992 saved tensor shape: torch.Size([29, 768])
+18:14:48  DEBUG     [test] 995 saved tensor shape: torch.Size([33, 768])
+18:14:50  DEBUG     [test] 997 saved tensor shape: torch.Size([31, 768])
+18:14:50  INFO      ======================================================================
+18:14:50  INFO        Feature Extraction Complete!
+18:14:50  INFO      ======================================================================
