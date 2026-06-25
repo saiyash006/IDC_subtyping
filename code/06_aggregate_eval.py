@@ -41,11 +41,21 @@ N_GRADE_CLS  = 3
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--run_dir", type=str, required=True)
+    parser.add_argument("--run_dir", type=str, default=None,
+                        help="Path to run dir. If omitted, uses the latest timestamp.")
+    parser.add_argument("--model", type=str, default="phikon_patch256_mag20")
     parser.add_argument("--device", type=str, default="cuda")
     args = parser.parse_args()
 
-    run_dir = Path(args.run_dir)
+    if args.run_dir:
+        run_dir = Path(args.run_dir)
+    else:
+        results_root = Path("/home/cgntlab5/bcnb/BCNB dataset/outputs/results") / args.model
+        candidates = sorted([d for d in results_root.iterdir() if d.is_dir() and (d / "fold_1").exists()])
+        if not candidates:
+            raise FileNotFoundError(f"No completed runs found under {results_root}")
+        run_dir = candidates[-1]
+        logger.info(f"Auto-detected latest run: {run_dir.name}")
     device = torch.device(args.device)
 
     # ── 1. Aggregate Training History across Folds ────────────────────────────
