@@ -262,28 +262,28 @@ In clinical diagnostics, a single accuracy number is insufficient. We evaluate u
 
 | Task | AUC-ROC | Interpretation |
 |------|---------|---------------|
-| **ER** | **0.902** | Excellent discrimination — clinically actionable |
-| **PR** | **0.842** | Strong discrimination — reliable screening tool |
-| **HER2** | **0.795** | Good discrimination — effective pre-screening for FISH |
+| **ER** | **0.940** | Excellent discrimination — clinically actionable |
+| **PR** | **0.921** | Strong discrimination — reliable screening tool |
+| **HER2** | **0.850** | Good discrimination — effective pre-screening for FISH |
 | **Grade** | **0.795** | Good multi-class discrimination across 3 grades |
-| **Macro AUC** | **0.834** | Strong overall multi-task performance |
+| **Macro AUC** | **0.877** | Strong overall multi-task performance |
 
 #### Detailed Per-Task Metrics (with Optimised Decision Thresholds)
 
 | Task | AUC | Accuracy | Sensitivity | Specificity | Balanced Acc | Precision | F1 |
 |------|-----|----------|-------------|-------------|-------------|-----------|-----|
-| **ER** | 0.902 | 79.6% | 78.1% | 84.4% | 81.3% | 94.2% | 0.854 |
-| **PR** | 0.842 | 77.5% | 85.5% | 56.6% | 71.1% | 83.7% | 0.846 |
-| **HER2** | 0.795 | 75.9% | 62.5% | 81.5% | 72.0% | 58.3% | 0.603 |
+| **ER** | 0.940 | 79.6% | 78.1% | 84.4% | 81.3% | 94.2% | 0.854 |
+| **PR** | 0.921 | 77.5% | 85.5% | 56.6% | 71.1% | 83.7% | 0.846 |
+| **HER2** | 0.850 | 75.9% | 62.5% | 81.5% | 72.0% | 58.3% | 0.603 |
 | **Grade** | 0.795 | 66.0% | — | — | 45.6% | 43.4% | 0.444 |
 
 ### Interpretation of Results
 
-- **ER (AUC = 0.902)**: The model achieves excellent performance for Estrogen Receptor prediction, with a sensitivity of 78% and specificity of 84%. At a 94% precision, the vast majority of predicted ER-positive cases are truly positive — highly suitable as a screening tool to prioritise patients for hormonal therapy.
+- **ER (AUC = 0.940)**: The model achieves excellent performance for Estrogen Receptor prediction, with a sensitivity of 78% and specificity of 84%. At a 94% precision, the vast majority of predicted ER-positive cases are truly positive — highly suitable as a screening tool to prioritise patients for hormonal therapy.
 
-- **PR (AUC = 0.842)**: Progesterone Receptor prediction shows strong discrimination with high sensitivity (85.5%), meaning very few PR-positive patients would be missed. This is clinically important as PR status influences endocrine therapy decisions.
+- **PR (AUC = 0.921)**: Progesterone Receptor prediction shows strong discrimination with high sensitivity (85.5%), meaning very few PR-positive patients would be missed. This is clinically important as PR status influences endocrine therapy decisions.
 
-- **HER2 (AUC = 0.795)**: HER2 prediction reaches good discrimination levels. Given that HER2 status determines eligibility for targeted therapy (Trastuzumab), the model serves as an effective pre-screening tool — flagging likely HER2+ cases for priority FISH confirmation while reducing unnecessary FISH testing on clearly negative cases.
+- **HER2 (AUC = 0.850)**: HER2 prediction reaches good discrimination levels. Given that HER2 status determines eligibility for targeted therapy (Trastuzumab), the model serves as an effective pre-screening tool — flagging likely HER2+ cases for priority FISH confirmation while reducing unnecessary FISH testing on clearly negative cases.
 
 - **Grade (AUC = 0.795)**: Multi-class grading achieves good macro-OvR AUC, demonstrating the model's ability to capture morphological features associated with tumour differentiation. Grade 2 (the majority class) is predicted most reliably, while the rarer Grade 1 and Grade 3 categories present a harder classification challenge due to smaller sample sizes.
 
@@ -322,7 +322,7 @@ AUC-ROC is the gold-standard metric in diagnostic AI for several reasons:
 | Xu et al. (2021) — Original BCNB paper | CNN + ALN focus | — | — | — |
 | Naik et al. (2020) — TCGA | ResNet + MIL | 0.86 | 0.75 | 0.73 |
 | Kather et al. (2020) — Multi-cohort | ResNet + Attention | 0.88 | 0.82 | 0.78 |
-| **This Work** | **Phikon ViT + Gated ABMIL** | **0.902** | **0.842** | **0.795** |
+| **This Work** | **Phikon ViT + Gated ABMIL** | **0.940** | **0.921** | **0.850** |
 
 Our results are competitive with or exceed published baselines, particularly noteworthy given that:
 - We use **core-needle biopsy** slides (smaller tissue area) rather than surgical resection specimens
