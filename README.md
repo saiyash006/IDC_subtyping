@@ -17,6 +17,7 @@
 - [Setup & Installation](#-setup--installation)
 - [Usage](#-usage)
 - [Project Structure](#-project-structure)
+- [Slides](https://docs.google.com/presentation/d/1fn3b-MvOpZ7iZYXgoJLiti5Q5sz2qpV4_3j6lrhYXj0/edit?slide=id.g3f70d156184_1_37#slide=id.g3f70d156184_1_37)
 - [Citation](#-citation)
 - [License](#-license)
 
